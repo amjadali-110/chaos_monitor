@@ -40,6 +40,7 @@ jobs:
         env:
           CHAOS_INDEX_URL: https://chaos-data.projectdiscovery.io/index.json
           DOWNLOAD_DIR: downloads
+          OUTPUTS_DIR: outputs
           LOG_FILE: chaos_monitor.log
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -53,6 +54,14 @@ jobs:
         with:
           name: chaos-downloads-${{ github.run_id }}
           path: downloads/**
+
+      - name: Upload outputs as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chaos-outputs-${{ github.run_id }}
+          path: outputs/**
+          if-no-files-found: ignore
 
       - name: Upload logs
         if: always()
