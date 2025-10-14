@@ -1,0 +1,70 @@
+name: Chaos Monitor
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  group: chaos-monitor-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      
+      - name: Restore previous downloads cache
+        id: cache-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: downloads
+          key: chaos-monitor-downloads-${{ github.ref_name }}-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            chaos-monitor-downloads-${{ github.ref_name }}-${{ runner.os }}-
+            chaos-monitor-downloads-${{ runner.os }}-
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run chaos monitor
+        env:
+          CHAOS_INDEX_URL: https://chaos-data.projectdiscovery.io/index.json
+          DOWNLOAD_DIR: downloads
+          LOG_FILE: chaos_monitor.log
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          mkdir -p downloads
+          python chaos_monitor.py || true
+
+      - name: Upload downloaded ZIPs as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chaos-downloads-${{ github.run_id }}
+          path: downloads/**
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chaos-logs-${{ github.run_id }}
+          path: |
+            chaos_monitor.log
+
+      - name: Save updated downloads cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: downloads
+          key: chaos-monitor-downloads-${{ github.ref_name }}-${{ runner.os }}-${{ github.run_id }}
