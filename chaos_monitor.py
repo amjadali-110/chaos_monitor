@@ -37,6 +37,7 @@ class Config:
         self.download_dir = Path(os.getenv('DOWNLOAD_DIR', 'downloads'))
         self.latest_dir = self.download_dir / 'latest'
         self.previous_dir = self.download_dir / 'previous' 
+        self.outputs_dir = Path(os.getenv('OUTPUTS_DIR', 'outputs'))
         self.log_file = os.getenv('LOG_FILE', 'chaos_monitor.log')
         self.telegram_bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
         self.telegram_chat_id = os.getenv('TELEGRAM_CHAT_ID')
@@ -408,6 +409,18 @@ class ChaosMonitor:
             prev_index = {p.stem.lower(): p for p in prev_zip_files}
             self.logger.info(f"Indexed {len(prev_zip_files)} archives in previous")
 
+        # Prepare outputs directory for this run (timestamped subfolder to preserve history)
+        try:
+            self.config.outputs_dir.mkdir(parents=True, exist_ok=True)
+            timestamp = datetime.now().strftime('%d-%m-%y-%I:%M-%p')
+            run_outputs_dir = self.config.outputs_dir / timestamp
+            run_outputs_dir.mkdir(parents=True, exist_ok=True)
+        except Exception as e:
+            self.logger.error(f"Failed to prepare outputs directory: {e}")
+            run_outputs_dir = self.config.outputs_dir
+        all_new_subs: Set[str] = set()
+        added_files: List[tuple[str, int]] = []
+
         for latest_zip in latest_zip_files:
             program_name = latest_zip.stem
 
@@ -442,12 +455,46 @@ class ChaosMonitor:
                 total_new_subdomains += len(new_subs)
                 self.logger.info(f"Found {len(new_subs)} new subdomains for {program_name}")
 
-                message = self.format_telegram_message(program_name, new_subs, len(current_subs))
-                if self.telegram.send_message(message):
-                    new_alerts += 1
-                    time.sleep(1)
+                # Determine platform and subfolder from latest zip relative path
+                try:
+                    rel_path = latest_zip.relative_to(self.config.latest_dir)
+                    platform = rel_path.parts[0]
+                    subfolder = rel_path.parts[1] if len(rel_path.parts) > 1 else "Bounty"
+                except Exception:
+                    platform = "self-hosted"
+                    subfolder = "Bounty"
+
+                # Write per-program new subdomains file under outputs/platform/subfolder/
+                try:
+                    out_dir = run_outputs_dir / platform / subfolder
+                    out_dir.mkdir(parents=True, exist_ok=True)
+                    program_file = out_dir / f"{program_name.lower()}.txt"
+                    with open(program_file, 'w', encoding='utf-8') as pf:
+                        for s in sorted(new_subs):
+                            pf.write(s + "\n")
+                except Exception as e:
+                    self.logger.error(f"Failed to write outputs for {program_name}: {e}")
+
+                # Track this file and count for aggregated Telegram update
+                try:
+                    rel_file_path = (run_outputs_dir / platform / subfolder / f"{program_name.lower()}.txt").as_posix()
+                    added_files.append((rel_file_path, len(new_subs)))
+                except Exception:
+                    pass
+
+                # Accumulate all new subdomains for global file
+                all_new_subs.update(new_subs)
 
             programs_processed += 1
+        
+        # After processing all, write all-new-subs.txt
+        try:
+            all_new_path = run_outputs_dir / 'all-new-subs.txt'
+            with open(all_new_path, 'w', encoding='utf-8') as f:
+                for s in sorted(all_new_subs):
+                    f.write(s + "\n")
+        except Exception as e:
+            self.logger.error(f"Failed to write all-new-subs.txt: {e}")
         
         # Step 6: Rotate directories for next run
         self.logger.info("Phase 5: Rotating directories...")
@@ -457,18 +504,15 @@ class ChaosMonitor:
         self.logger.info(f"=== Monitoring Complete ===")
         self.logger.info(f"Programs processed: {programs_processed}")
         self.logger.info(f"Total new subdomains found: {total_new_subdomains}")
-        self.logger.info(f"Alerts sent: {new_alerts}")
+        self.logger.info(f"Files updated: {len(added_files)}")
         
-        # Always send summary, even if there are no new subdomains
-        header = "📊 <b>Chaos Monitor Summary</b>\n\n"
-        if new_alerts == 0:
-            header = "✅ <b>No new subdomains detected</b>\n\n"
-        summary_msg = header
-        summary_msg += f"📋 Programs processed: {programs_processed}\n"
-        summary_msg += f"🆕 Total new subdomains: {total_new_subdomains}\n"
-        summary_msg += f"🔔 Alerts sent: {new_alerts}\n"
-        summary_msg += f"⏰ Completed: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-        self.telegram.send_message(summary_msg)
+        # Telegram: show only file paths and how many were added, or a no-changes notice
+        if added_files:
+            lines = [f"• {path} — {count} new" for path, count in added_files]
+            msg = "\n".join(lines)
+        else:
+            msg = "✅ No new subdomains detected"
+        self.telegram.send_message(msg)
 
 def main():
     """Main entry point"""
