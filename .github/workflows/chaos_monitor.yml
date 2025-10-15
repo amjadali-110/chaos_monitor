@@ -9,12 +9,17 @@ concurrency:
   group: chaos-monitor-${{ github.ref }}
   cancel-in-progress: false
 
+permissions:
+  contents: write
+
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       
       - name: Restore previous downloads cache
         id: cache-restore
@@ -62,6 +67,19 @@ jobs:
           name: chaos-outputs-${{ github.run_id }}
           path: outputs/**
           if-no-files-found: ignore
+
+      - name: Commit outputs to repo
+        if: always()
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git add outputs
+          if ! git diff --cached --quiet; then
+            git commit -m "ci(outputs): add results for ${{ github.run_id }} [skip ci]"
+            git push origin HEAD:${{ github.ref_name }}
+          else
+            echo "No changes in outputs to commit."
 
       - name: Upload logs
         if: always()
