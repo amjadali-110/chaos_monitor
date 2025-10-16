@@ -73,17 +73,41 @@ jobs:
 
       - name: Commit outputs to repo
         if: always()
+        continue-on-error: true
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          git add outputs
+          
+          # Check if outputs directory exists and has content
+          if [ ! -d "outputs" ] || [ -z "$(find outputs -name '*.txt' 2>/dev/null)" ]; then
+            echo "No outputs to commit - outputs directory is empty or doesn't exist"
+            exit 0
+          fi
+          
+          echo "Adding outputs directory to git..."
+          git add outputs || { echo "Warning: Failed to add outputs"; exit 0; }
+          
           if ! git diff --cached --quiet; then
-            git commit -m "ci(outputs): add results for ${{ github.run_id }} (${RUN_TS}) [skip ci]"
-            git pull --rebase origin ${{ github.ref_name }}
-            git push origin HEAD:${{ github.ref_name }}
+            echo "Committing changes..."
+            if git commit -m "ci(outputs): add results for ${{ github.run_id }} (${RUN_TS}) [skip ci]"; then
+              echo "Pulling latest changes..."
+              if git pull --rebase origin ${{ github.ref_name }}; then
+                echo "Pushing changes..."
+                if git push origin HEAD:${{ github.ref_name }}; then
+                  echo "Successfully committed and pushed changes"
+                else
+                  echo "Warning: Failed to push changes"
+                fi
+              else
+                echo "Warning: Failed to pull/rebase"
+              fi
+            else
+              echo "Warning: Failed to commit"
+            fi
           else
             echo "No changes in outputs to commit."
+          fi
 
       - name: Upload logs
         if: always()
