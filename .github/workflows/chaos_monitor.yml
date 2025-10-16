@@ -22,7 +22,7 @@ jobs:
           fetch-depth: 0
 
       - name: Set run timestamp
-        run: echo "RUN_TS=$(date +'%d-%m-%y-%I-%M-%p')" >> "$GITHUB_ENV"
+        run: echo "RUN_TS=$(date +'%d-%m-%y-%H-%M')" >> "$GITHUB_ENV"
       
       - name: Restore previous downloads cache
         id: cache-restore
