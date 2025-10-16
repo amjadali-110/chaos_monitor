@@ -412,7 +412,8 @@ class ChaosMonitor:
         # Prepare outputs directory for this run (timestamped subfolder to preserve history)
         try:
             self.config.outputs_dir.mkdir(parents=True, exist_ok=True)
-            timestamp = datetime.now().strftime('%d-%m-%y-%I:%M-%p')
+            # Use a colon-free timestamp for cross-platform safe paths (artifacts disallow ':')
+            timestamp = datetime.now().strftime('%d-%m-%y-%H-%M')
             run_outputs_dir = self.config.outputs_dir / timestamp
             run_outputs_dir.mkdir(parents=True, exist_ok=True)
         except Exception as e:
