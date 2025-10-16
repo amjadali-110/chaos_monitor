@@ -506,12 +506,23 @@ class ChaosMonitor:
         self.logger.info(f"Total new subdomains found: {total_new_subdomains}")
         self.logger.info(f"Files updated: {len(added_files)}")
         
-        # Telegram: show only file paths and how many were added, or a no-changes notice
+        # Telegram: minimal summary only
         if added_files:
-            lines = [f"• {path} — {count} new" for path, count in added_files]
-            msg = "\n".join(lines)
+            msg = (
+                f"✅ Scan complete\n"
+                f"📊 New subdomains: {total_new_subdomains}\n"
+                f"🗂️ Files updated: {len(added_files)}\n"
+                f"📋 Programs processed: {programs_processed}\n"
+                f"📦 Output: {run_outputs_dir.as_posix()}\n"
+                f"⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+            )
         else:
-            msg = "✅ No new subdomains detected"
+            msg = (
+                f"✅ Scan complete — no new subdomains\n"
+                f"📋 Programs processed: {programs_processed}\n"
+                f"📦 Output: {run_outputs_dir.as_posix()}\n"
+                f"⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+            )
         self.telegram.send_message(msg)
 
 def main():
