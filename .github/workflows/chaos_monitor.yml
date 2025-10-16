@@ -20,6 +20,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Set run timestamp
+        run: echo "RUN_TS=$(date +'%d-%m-%y-%I-%M-%p')" >> "$GITHUB_ENV"
       
       - name: Restore previous downloads cache
         id: cache-restore
@@ -64,7 +67,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: chaos-outputs-${{ github.run_id }}
+          name: chaos-outputs-${{ github.run_id }}-${{ env.RUN_TS }}
           path: outputs/**
           if-no-files-found: ignore
 
@@ -76,7 +79,8 @@ jobs:
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git add outputs
           if ! git diff --cached --quiet; then
-            git commit -m "ci(outputs): add results for ${{ github.run_id }} [skip ci]"
+            git commit -m "ci(outputs): add results for ${{ github.run_id }} (${RUN_TS}) [skip ci]"
+            git pull --rebase origin ${{ github.ref_name }}
             git push origin HEAD:${{ github.ref_name }}
           else
             echo "No changes in outputs to commit."
