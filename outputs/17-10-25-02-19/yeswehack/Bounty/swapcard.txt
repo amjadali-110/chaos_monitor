@@ -1,0 +1,2 @@
+xcom.app.swapcard.com
+zpeventapp.app.swapcard.com

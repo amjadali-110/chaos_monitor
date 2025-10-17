@@ -1,0 +1,2 @@
+dev-employer-admin.jora.xyz
+employer-admin.jora.xyz

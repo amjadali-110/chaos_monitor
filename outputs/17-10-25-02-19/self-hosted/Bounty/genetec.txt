@@ -1,0 +1,5 @@
+acaas-gateway-uk01-telemetry.geneteccloud.com
+avcr-prod-usgova-portal2-temp-0000-staging.autovu.cloud
+avcr-prod-usgovv-portal2-temp-0000-staging.autovu.cloud
+portal2-temp.autovu.cloud
+yarp.api.ca-central.ops.center

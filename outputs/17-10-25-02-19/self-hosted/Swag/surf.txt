@@ -1,0 +1,8 @@
+*.ci-pure-record-harvester.dev.sdp.surf.nl
+*.ci-return-delete-re-record-harvester.dev.sdp.surf.nl
+db.ia.surf.nl
+idbproxy02p-traefik.int.ia.surf.nl
+idbproxy02p.int.ia.surf.nl
+login.vas.secops.surf.nl
+zoekportal.surf.nl
+zoekportalback.surf.nl
