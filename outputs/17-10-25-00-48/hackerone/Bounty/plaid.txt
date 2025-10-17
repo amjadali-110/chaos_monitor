@@ -1,0 +1,2 @@
+plaidbofa-production-202510.plaid.com
+plaidbofa-testing-202510.plaid.com

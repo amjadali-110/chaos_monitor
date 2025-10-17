@@ -1,0 +1,10 @@
+*.lt1016wklb-h5fwq.aut.saas.nokia.com
+*.lt1016wklc-4xk9v.aut.saas.nokia.com
+*.vb0908a-thcph.aut.saas.nokia.com
+*.vr1015a-jnm6g.aut.saas.nokia.com
+*.vr1016w-z9sg5.aut.saas.nokia.com
+*.vt0923auto-krzrd.aut.saas.nokia.com
+*.vt0923wkld-a-v6lps.aut.saas.nokia.com
+manage.yohan-poc-xprs.eda.nokia.com
+zvawapp020.ext.nokia.com
+zwww.partners.nokia.com

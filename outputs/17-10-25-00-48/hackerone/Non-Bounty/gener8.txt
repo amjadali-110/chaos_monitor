@@ -1,0 +1,3 @@
+voyager-internal.gener8ads.com
+web-ui.gener8ads.com
+www.gener8ads.com

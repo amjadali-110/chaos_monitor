@@ -1,0 +1,3 @@
+mta-sts.genasys.tech
+portal.genasys.tech
+staging.genasys.tech

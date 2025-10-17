@@ -1,0 +1,5 @@
+co-in-gw.sa.apso1.aws.indriverapp.com
+inc-gw.africa.afso1.aws.indriverapp.com
+inc-gw.sea.apse3.aws.indriverapp.com
+ows-gw.euce1.indriverapp.com
+yourpace.indrive.com

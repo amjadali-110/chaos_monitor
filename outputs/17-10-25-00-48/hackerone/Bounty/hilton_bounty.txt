@@ -1,0 +1,2 @@
+*.tgs.hhc.hilton.com
+*.tgs.usw2.hhc.hilton.com

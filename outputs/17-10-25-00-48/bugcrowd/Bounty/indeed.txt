@@ -1,0 +1,6 @@
+kr.smartapply.indeed.com
+ph.smartapply.indeed.com
+post-apply-api.indeed.com
+sg.smartapply.indeed.com
+zhiyuan-test-lemma-webapp.awscmhqa3.k8s.indeed.tech
+ztna.indeed.tech

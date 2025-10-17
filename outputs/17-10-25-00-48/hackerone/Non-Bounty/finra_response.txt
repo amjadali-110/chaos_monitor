@@ -1,0 +1,4 @@
+*.aiglos.dev.finra.org
+*.aiglos.finra.org
+aiglos.dev.finra.org
+aiglos.finra.org

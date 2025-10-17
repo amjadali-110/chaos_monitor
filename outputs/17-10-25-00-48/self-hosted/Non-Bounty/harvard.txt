@@ -1,0 +1,14 @@
+*.nese.rc.harvard.edu
+brugarolas.mgh.harvard.edu
+cpanel.nicolewlee.share.library.harvard.edu
+cpcalendars.nicolewlee.share.library.harvard.edu
+cpcontacts.nicolewlee.share.library.harvard.edu
+globus.nese.rc.harvard.edu
+mail.nicolewlee.share.library.harvard.edu
+nicolewlee.share.library.harvard.edu
+ohs.harvard.edu
+wclinsharen2.law.harvard.edu
+webdisk.nicolewlee.share.library.harvard.edu
+webmail.nicolewlee.share.library.harvard.edu
+www.nicolewlee.share.library.harvard.edu
+yinglu.hms.harvard.edu

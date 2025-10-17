@@ -1,0 +1,3 @@
+*.mx.hubapi.com
+zirtual.hs-sites.com
+zogics-3.hs-sites.com

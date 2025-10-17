@@ -1,0 +1,2 @@
+*.securityreport.samsung.com
+wzus.nerpds.samsung.com

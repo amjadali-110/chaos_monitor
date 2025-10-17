@@ -1,0 +1,1 @@
+*.campaignlp.l1.constantcontact.com

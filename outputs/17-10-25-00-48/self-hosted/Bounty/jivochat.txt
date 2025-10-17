@@ -1,0 +1,13 @@
+*.jivoapp-in-11433-7.dev.jivosite.com
+*.jivoapp-in-11433-8.dev.jivosite.com
+*.jivoapp-in-11433-9.dev.jivosite.com
+*.rx7.dev.jivosite.com
+*.uitests3.dev.jivosite.com
+jivoapp-in-11433-7.dev.jivosite.com
+jivoapp-in-11433-8.dev.jivosite.com
+jivoapp-in-11433-9.dev.jivosite.com
+rx7.dev.jivosite.com
+uitests3.dev.jivosite.com
+zorg.dev.jivosite.com
+ztn.dev.jivosite.com
+zv.dev.jivosite.com

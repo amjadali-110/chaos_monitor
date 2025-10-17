@@ -1,0 +1,8 @@
+dev.resmed.dk
+dev.resmed.nl
+dev.resmed.no
+dev.resmed.pt
+myaccount-dev-fit-amr-assets.resmed.com
+myaccount-e2e-perf-amr-assets.resmed.com
+myaccount-e2e-stg-amr-assets.resmed.com
+www.resmed.com.br

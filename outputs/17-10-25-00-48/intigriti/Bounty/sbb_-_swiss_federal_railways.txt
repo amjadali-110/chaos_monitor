@@ -1,0 +1,6 @@
+biv-zvl-olten-260325.event.sbb.ch
+deploymentchecker.dev.ocp1.halon.sbb.ch
+www.biv-zvl-olten-260325.event.sbb.ch
+www.scrummasterday2.event.sbb.ch
+www.ztascegd.event.sbb.ch
+ztascegd.event.sbb.ch

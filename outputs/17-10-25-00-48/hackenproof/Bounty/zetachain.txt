@@ -1,0 +1,3 @@
+zeta-indexer-a3.cl04.zetachain.com
+zeta-labs-production.cl04.zetachain.com
+zeta-labs-staging.cl04.zetachain.com

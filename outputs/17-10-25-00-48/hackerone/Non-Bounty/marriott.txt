@@ -1,0 +1,6 @@
+dev.marrtool.com
+feedback.marriott.com
+test.marrtool.com
+uat.marrtool.com
+www.hotelplusair.eleganthotels.com
+www.marrtool.com

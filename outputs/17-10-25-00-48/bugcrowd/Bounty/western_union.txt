@@ -1,0 +1,14 @@
+*.kevinwildcardtestsb.westernunion.com
+*.wildcardkevintest.westernunion.com
+www.onlinefx.westernunion.se
+www.westernunion.dk
+www.westernunion.pt
+www.www2.westernunion.ch
+www.www2.westernunion.dk
+www.www2.westernunion.pt
+www.www2.westernunion.se
+www2.westernunion.be
+www2.westernunion.ch
+www2.westernunion.dk
+www2.westernunion.pt
+www2.westernunion.se

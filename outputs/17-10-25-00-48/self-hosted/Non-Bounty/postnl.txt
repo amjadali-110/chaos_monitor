@@ -1,0 +1,5 @@
+.postnl.com
+acc.api.ebe.postnl.nl
+dev.api.ebe.postnl.nl
+prd.api.ebe.postnl.nl
+tst.api.ebe.postnl.nl

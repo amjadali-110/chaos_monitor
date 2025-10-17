@@ -1,0 +1,6 @@
+mr-1489.s-staging.geckoterminal.com
+pr-125.staging-app.geckoterminal.com
+pr-126.staging-app.geckoterminal.com
+pr-150.s-staging.geckoterminal.com
+pr-150.staging.geckoterminal.com
+pr-57.s-staging.geckoterminal.com

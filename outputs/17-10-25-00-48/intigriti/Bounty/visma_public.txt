@@ -1,0 +1,14 @@
+*.86916.workbox.dk
+*.86944.workbox.dk
+*.87078.workbox.dk
+*.87104.workbox.dk
+*.87107.workbox.dk
+*.87109.workbox.dk
+*.87121.workbox.dk
+*.87130.workbox.dk
+traefik.mgmt.dev.workbox.dk
+traefiktest.workbox.dk
+verify.rostergenerator.vfxo.visma.com
+xxx.workbox.dk
+xxx0.workbox.dk
+zpcws.visma.com

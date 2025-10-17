@@ -1,0 +1,16 @@
+dev-blogcalloutfix-gh14157.app.elstc.co
+dev-callout-l10n-kr-jp-15445.app.elstc.co
+dev-codecarousel-image.app.elstc.co
+dev-content-block-curve.app.elstc.co
+dev-contentblock-jumplink.app.elstc.co
+dev-ghostcard-author.app.elstc.co
+dev-sanity-card-style-15471.app.elstc.co
+dev-toggletip.app.elstc.co
+supportlab-test.eops.nl
+supportlab.eops.nl
+test-vpn.eops.nl
+westeurope.azure.elastic-cloud.com
+westus2.azure.elastic-cloud.com
+www.elastic-cloud.com
+www.eops.nl
+www.gdw55e.elastic-cloud.com

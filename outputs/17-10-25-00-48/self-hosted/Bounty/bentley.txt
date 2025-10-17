@@ -1,0 +1,13 @@
+altalink-pw-ws.bentley.com
+basisp-pw-ws.bentley.com
+basisp-pw.bentley.com
+consor-pw-ws.bentley.com
+cph-pw-tmp.bentley.com
+mqttbroker.dev.edf.bentley.com
+railpros-pw-ws.bentley.com
+singh-pw-ws.bentley.com
+singh-pw.bentley.com
+zephyr-pw-ws.bentley.com
+zutari-pw-ws.bentley.com
+zutari-uae-pw-ws.bentley.com
+zutari-uae-pw.bentley.com

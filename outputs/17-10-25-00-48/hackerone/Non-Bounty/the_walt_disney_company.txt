@@ -1,0 +1,16 @@
+*.svc.plus.espn.com
+*.usw2.drt-sbx.wdprapps.disney.com
+.fxnetworks.com
+infsbx.wdw.disney.com
+jedai-kb-data-connectors.wdprapps.disney.com
+neo.nonprd.developer.disney.com
+oidc.dclapps.wdprapps.disney.com
+package-publish-rmq-rhel9.wdprapps.disney.com
+ppeventmanager.wdprapps.disney.com
+sm-arba-ebs3435.ltam.wdpr.disney.com
+sm-sgeq-sec8733.apac.wdpr.disney.com
+staging-opensearch-dash.east.chat.gpt.disney.com
+stats-publisher.wdprapps.disney.com
+tlsrv044.swna.wdpr.disney.com
+tlsrv044.wdw.disney.com
+windmill.latest.use1.cgs-dev.wdprapps.disney.com

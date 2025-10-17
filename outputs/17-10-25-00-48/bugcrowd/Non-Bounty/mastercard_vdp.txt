@@ -1,0 +1,12 @@
+cc.mastercard.com
+cryptocredential.mastercard.com
+mtf.cc.mastercard.com
+mtf.payments.digitalassets.mastercard.com
+payments.digitalassets.mastercard.com
+qa.payments.digitalassets.mastercard.com
+stage.payments.digitalassets.mastercard.com
+stg.mastercardbiz.com
+www.admin.pricelesssurprises.com
+www.mastercardbiz.com
+www.music.pricelesssurprises.com
+www.pricelesssurprises.com

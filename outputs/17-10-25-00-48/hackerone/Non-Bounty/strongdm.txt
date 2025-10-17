@@ -1,0 +1,10 @@
+*.alisree.sdm.network
+*.dev-sandbox.sdm.network
+*.forbidden.sdm.network
+*.johndoe-llc.sdm.network
+*.mailshieldorg.sdm.network
+*.qwerty22.sdm.network
+*.servicetitan.sdm.network
+*.srm.sdm.network
+*.treename.sdm.network
+*.zuvi.sdm.network

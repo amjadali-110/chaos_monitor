@@ -1,0 +1,12 @@
+id.pp-dx-2.prod.kraken.com
+id.pp-dx-3.prod.kraken.com
+id.pp-marketing-1.prod.kraken.com
+id.pp-marketing-3.prod.kraken.com
+id.pp-onboarding-1.prod.kraken.com
+id.pp-onboarding-3.prod.kraken.com
+www.pp-dx-1.prod.kraken.com
+www.pp-dx-2.prod.kraken.com
+www.pp-dx-3.prod.kraken.com
+www.pp-marketing-2.prod.kraken.com
+www.pp-onboarding-1.prod.kraken.com
+www.pp-onboarding-3.prod.kraken.com

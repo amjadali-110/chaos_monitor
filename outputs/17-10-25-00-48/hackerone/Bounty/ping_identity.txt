@@ -1,0 +1,2 @@
+www2.ort-authenticator.pingone.com
+zamestnancov.cdn1.pingone.com

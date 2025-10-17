@@ -1,0 +1,4 @@
+compasstestev.paypal.com
+zootapi.paypal.com
+zootapi.paypal.com.paypal.com
+zspxwmc2v0gm5wjp.stats.paypal.com
