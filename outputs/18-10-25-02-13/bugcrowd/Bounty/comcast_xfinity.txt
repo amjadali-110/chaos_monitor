@@ -1,0 +1,4 @@
+auth-poc.idbroker.comcast.com
+internal-repositories.comcast.com
+rancher-stage.ch.ccp-dev.comcast.com
+tpis-dev.merlin.comcast.com

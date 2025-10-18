@@ -1,0 +1,8 @@
+dev2.be.jbl.com
+dev2.ch.jbl.com
+dev2.de.jbl.com
+dev2.dk.jbl.com
+dev2.es.jbl.com
+dev2.fi.jbl.com
+dev2.no.jbl.com
+dev2.se.jbl.com

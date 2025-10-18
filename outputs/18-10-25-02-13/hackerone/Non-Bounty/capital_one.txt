@@ -1,0 +1,9 @@
+coaf-accounting-suite-mfe-qa.capitalone.com
+m.teamstercardnow.com
+q.teamstercardnow.com
+refi-user-entry-mfe-qa.capitalone.com
+refi-user-entry-mfe-qa.clouddqt.capitalone.com
+refi-user-entry-mfe-qa.clouddqtext.capitalone.com
+www.teamstercardnow.com
+xchange.demo.bluetarp.com
+xchange.eit.bluetarp.com

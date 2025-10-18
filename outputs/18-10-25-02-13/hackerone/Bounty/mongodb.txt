@@ -1,0 +1,3 @@
+customer-portal-uat-prod.ts-tools.prod.corp.mongodb.com
+genai-in-car-voice-assistant.industrysolutions.staging.corp.mongodb.com
+pd-schedule-sync.ts-apac.staging.corp.mongodb.com

@@ -1,0 +1,17 @@
+in-gw.africa.afso1.aws.indriverapp.com
+in-gw.eu.euce1.aws.indriverapp.com
+in-gw.latam-br.saea1.aws.indriverapp.com
+in-gw.latam-co.saea1.aws.indriverapp.com
+in-gw.latam-mx.usea1.aws.indriverapp.com
+in-gw.latam-pe.saea1.aws.indriverapp.com
+in-gw.latam.saea1.aws.indriverapp.com
+in-gw.mena-eg.meso1.aws.indriverapp.com
+in-gw.mena.meso1.aws.indriverapp.com
+in-gw.sa-in.apso1.aws.indriverapp.com
+in-gw.sea.apse3.aws.indriverapp.com
+sfc-cf.sea.apse3.aws.indriverapp.com
+sfc.sea.apse3.aws.indriverapp.com
+www.freelanceme.indriver.com
+www.freelancepu.indriver.com
+www.freelanceru.indriver.com
+www.job.indriver.com

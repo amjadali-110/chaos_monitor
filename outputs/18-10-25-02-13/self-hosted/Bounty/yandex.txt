@@ -1,0 +1,10 @@
+business.smena.yandex.ru
+concurrency-arbiter.ap.ott.yandex.net
+self-service-frontend.taxi.yandex.net
+weather.yandex.st
+www.yandex.st
+yabs.yandex.st
+zen-int.yandex.ua
+zen.yandex.ua
+zworker-s1.yandex.net
+zworker-test.yandex.net

@@ -1,0 +1,7 @@
+*.buf.aws.cbhq.net
+buf.aws.cbhq.net
+payments-jpmorgan-kinexys-dev.coinbase.com
+vpnsvr02.cbhq.net
+www.engineering.coinbase.com
+www2.coinbase.com
+wwww.coinbase.com

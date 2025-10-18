@@ -1,0 +1,9 @@
+*.simolo.dev.ocp2.halon.sbb.ch
+myride.sbbmobile.ch
+pokga2025.event.sbb.ch
+prosec-sst-test.sbb.ch
+www.bgaxvnwx.event.sbb.ch
+www.lms.transsicura.ch
+www.pokga2025.event.sbb.ch
+zvs-b2b-ws.sbb.ch
+zvs-int-ws.sbb.ch

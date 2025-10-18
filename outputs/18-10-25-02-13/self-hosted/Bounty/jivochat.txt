@@ -1,0 +1,4 @@
+*.nbr.dev.jivosite.com
+*.wi-in-176-13.dev.jivosite.com
+nbr.dev.jivosite.com
+wi-in-176-13.dev.jivosite.com

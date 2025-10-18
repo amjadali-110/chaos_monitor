@@ -1,0 +1,7 @@
+beta-cms-whitelabel.coop.ch
+corporate.coop.ch
+test-beta-cms-whitelabel.coop.ch
+test.cms-whitelabel.coop.ch
+test.corporate.coop.ch
+www-beta-cms-whitelabel.coop.ch
+www.cms-whitelabel.coop.ch

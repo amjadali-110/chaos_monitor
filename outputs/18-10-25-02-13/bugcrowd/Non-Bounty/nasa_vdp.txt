@@ -1,0 +1,11 @@
+comm-tracker.train.m20.jpl.nasa.gov
+contractsapp-govprod.prosams.nasa.gov
+evr-viewer.train.m20.jpl.nasa.gov
+itar-chatgsfc.caio.mcp.nasa.gov
+mmpat.train.m20.jpl.nasa.gov
+reportapp-govprod.prosams.nasa.gov
+rounds-rule-editor.train.m20.jpl.nasa.gov
+rounds.train.m20.jpl.nasa.gov
+rulehub.train.m20.jpl.nasa.gov
+sequencer-int.train.m20.jpl.nasa.gov
+waiverly.train.m20.jpl.nasa.gov

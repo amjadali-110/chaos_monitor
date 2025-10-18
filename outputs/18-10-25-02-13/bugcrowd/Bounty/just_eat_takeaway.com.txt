@@ -1,0 +1,16 @@
+.just-eat.com
+jet-360-sockets.dev.just-data.io
+restauranteventsapi.je-apis.com
+test.ml-dev.just-data.io
+ubd-fee-modelling.dev.just-data.io
+uk-zeusexternal.je-apis.com
+usu.menulog.com.au
+vault-test.dev.just-data.io
+www.menulog.com.au
+www.service-iphone.menulog.com.au
+xp_gitlab.version2.takeaway.feature.test.staging.takeaway.com
+zen-uncover.staging.lieferando.de
+zen.staging.lieferando.de
+zerovirusteast-16s.lieferando.at
+zeus.uncover.dev.lieferando.de
+zeusexternal.menulog.com.au

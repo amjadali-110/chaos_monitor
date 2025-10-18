@@ -1,0 +1,5 @@
+*.artifactory.it.cloud.tesla.cn
+auth.prd.euw1.vn.cloud.tesla.com
+zip3-dev-loadtest.mo.tesla.services
+zip3-dev.mo.tesla.services
+zip3.mo.tesla.services

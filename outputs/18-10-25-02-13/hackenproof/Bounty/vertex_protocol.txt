@@ -1,0 +1,3 @@
+trigger.sonic-test.vertexprotocol.com
+trigger.test.vertexprotocol.com
+www.vertexprotocol.com

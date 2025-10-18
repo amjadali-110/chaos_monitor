@@ -1,0 +1,6 @@
+*.transsion-message.com
+*.transsion-os.com
+pk-store.tecno.com
+wallet-aonax.transsion-os.com
+www.mobile-phantom.com
+www.wallet-aonax.transsion-os.com

@@ -1,0 +1,3 @@
+wpe-plugin-updates.dev.wp-updater.wpengine.com
+zzzfactory.wpengine.com
+zzzmd.wpengine.com

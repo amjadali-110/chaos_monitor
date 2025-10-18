@@ -1,0 +1,4 @@
+sg.exmo.com
+support.exmo.com
+wallet.exmo.com
+www.exmo.com

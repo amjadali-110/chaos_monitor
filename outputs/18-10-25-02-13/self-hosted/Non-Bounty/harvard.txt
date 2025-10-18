@@ -1,0 +1,3 @@
+*.cns.fas.harvard.edu
+p3-uni-dc02.p3-uni.huit.harvard.edu
+www.camhs.huhs.harvard.edu

@@ -1,0 +1,3 @@
+ws2-private.blofin.com
+ws2-public.blofin.com
+www.blofin.com

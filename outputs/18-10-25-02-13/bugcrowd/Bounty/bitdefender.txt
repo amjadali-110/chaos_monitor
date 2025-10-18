@@ -1,0 +1,2 @@
+zqadm.omp.connect.bitdefender.com
+zztgh.omp.connect.bitdefender.com
