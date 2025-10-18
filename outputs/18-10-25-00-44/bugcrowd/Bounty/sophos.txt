@@ -1,0 +1,5 @@
+nta-proxy.stn100dxb.ctr.sophos.com
+www-beta.astaro.com
+www.astaro.com
+www.cloud.hitmanpro.nl
+www.hitmanpro.nl

@@ -1,0 +1,2 @@
+int.upload.spe.sony.com
+stg.upload.spe.sony.com

@@ -1,0 +1,3 @@
+web-vault.bitwarden.com
+www.bitwarden.com
+www.blog.bitwarden.com

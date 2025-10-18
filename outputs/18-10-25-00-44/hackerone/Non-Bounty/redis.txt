@@ -1,0 +1,1 @@
+jaeger-internal.jaeger.sm-qa.qa.redislabs.com

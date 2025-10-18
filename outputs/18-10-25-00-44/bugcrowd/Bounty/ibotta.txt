@@ -1,0 +1,3 @@
+version-registry.gateway.ops.int.ibops.net
+ws.sarge.ibops.net
+ws.sarge.staging.ibops.net

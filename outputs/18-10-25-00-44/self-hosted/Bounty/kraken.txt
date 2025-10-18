@@ -1,0 +1,7 @@
+dev-02.beholder.kraken.com
+dev-03.beholder.kraken.com
+dev-04.beholder.kraken.com
+id.pp-marketing-2.prod.kraken.com
+www.dc3a.prod.kraken.com
+www.pp-marketing-3.prod.kraken.com
+www.pp-onboarding-2.prod.kraken.com

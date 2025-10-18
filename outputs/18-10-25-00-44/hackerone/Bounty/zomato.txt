@@ -1,0 +1,2 @@
+zpaytest.zomato.com
+zwstatic.zomato.com

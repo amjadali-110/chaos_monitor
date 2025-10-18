@@ -1,0 +1,3 @@
+mr-1491.s-staging.geckoterminal.com
+mr-1493.s-staging.geckoterminal.com
+pr-127.staging-app.geckoterminal.com

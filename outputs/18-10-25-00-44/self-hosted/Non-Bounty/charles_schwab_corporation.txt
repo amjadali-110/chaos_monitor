@@ -1,0 +1,3 @@
+xsvnzcdc.cdc.schwab.com
+xswn1sma.sfo.schwab.com
+zproxy.schwab.com

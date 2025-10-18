@@ -1,0 +1,2 @@
+zoofy-api-prod.digitalocean.com
+zoom--api-prod.digitalocean.com

@@ -1,0 +1,3 @@
+*.cl1-default-lb.epm-alfa-ant-tros.eu.gcp.cloudapp.epam.com
+*.cl2-default-lb.epm-paas-anthos-b.us.gcp.epm-paas.projects.epam.com
+elasticsearch-v6-396.aws.radar.stage.epam.com

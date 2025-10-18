@@ -1,0 +1,2 @@
+*.campaignlp.s1.constantcontact.com
+www.bugzilla.singleplatform.com

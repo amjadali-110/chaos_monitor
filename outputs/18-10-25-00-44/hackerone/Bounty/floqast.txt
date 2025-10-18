@@ -1,0 +1,2 @@
+*.us.floqast.app
+.floqast.app

@@ -1,0 +1,7 @@
+*.xata.fi
+doc3.xata.fi
+docs.xata.fi
+witness-geode-staging.ata.network
+www.ata.network
+www.xata.fi
+xata-docs.ata.network

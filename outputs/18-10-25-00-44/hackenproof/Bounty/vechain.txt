@@ -1,0 +1,1 @@
+testnet.dev.rpc.vechain.org
