@@ -1,0 +1,2 @@
+static-dev.etsypayments.com
+static-prod.etsypayments.com

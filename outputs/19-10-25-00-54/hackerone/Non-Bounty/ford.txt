@@ -1,0 +1,11 @@
+ap-ext-pd.ap.gcp.ford.com
+ap-ext-prd-asiasouth1.ap.gcp.ford.com
+ap-ext-prd-asiasoutheast1.ap.gcp.ford.com
+ap-ext-prd.ap.gcp.ford.com
+ap-int-prd-asiasouth1.ap.gcp.ford.com
+ap-int-prd-asiasoutheast1.ap.gcp.ford.com
+ap-int-prd.ap.gcp.ford.com
+ap-int-prd.pivpn.ap.gcp.ford.com
+wwwqa.order-executor.dna.ford.com
+wwwqa.vehiclelocator.dna.ford.com
+wwwstg.eucco.ford.com

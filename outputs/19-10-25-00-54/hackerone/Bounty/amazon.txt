@@ -1,0 +1,11 @@
+auth.us-east-1.beta.outlook.ai.legal.amazon.com
+vendorcentral.amazon.sg
+webservices.amazon.sg
+www.amazon.sg
+your-account.amazon.co.jp
+your-account.amazon.com.br
+your-orders.amazon.co.jp
+your-orders.amazon.com.br
+youraccount.amazon.co.jp
+youraccount.amazon.com.br
+yourorders.amazon.co.jp

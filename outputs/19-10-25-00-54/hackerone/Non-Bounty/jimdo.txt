@@ -1,0 +1,3 @@
+web-stable.jimdo-platform.net
+web-whp-prod.jimdo-platform.net
+zzzmynet.jimdo.com

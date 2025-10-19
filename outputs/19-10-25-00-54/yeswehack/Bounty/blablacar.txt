@@ -1,0 +1,10 @@
+cmkt.blablacar.hu
+cmkt.blablacar.nl
+edge.blablacar.hu
+m.blablacar.hu
+m.blablacar.mx
+nginx-ddos.blablacar.ru
+test.blablacar.ru
+www.blablacar.hu
+www.blablacar.mx
+www.blablacar.ru

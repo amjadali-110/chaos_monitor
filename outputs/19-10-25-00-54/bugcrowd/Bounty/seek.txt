@@ -1,0 +1,2 @@
+vault3.aips-internal.com
+web-staging-cf2.sol-data.com

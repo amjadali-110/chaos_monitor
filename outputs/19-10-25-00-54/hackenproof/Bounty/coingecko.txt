@@ -1,0 +1,4 @@
+mr-1234.s-staging.geckoterminal.com
+mr-1315.s-staging.geckoterminal.com
+mr-1562.s-staging.geckoterminal.com
+pr-59.s-staging.geckoterminal.com

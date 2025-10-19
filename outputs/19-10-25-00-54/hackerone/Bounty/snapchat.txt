@@ -1,0 +1,6 @@
+www.ar24.frimages.bitmoji.com
+www.images.bitmoji.com
+www.rendering-service.prod.us-east.bitstrips.com
+www.rendering-service.staging.us-east.bitstrips.com
+www.secure.bitstrips.com
+www2.bitmoji.com

@@ -1,0 +1,3 @@
+academy.vechain.org
+www.vechain-kit.vechain.org
+zkpvote.vechain.org

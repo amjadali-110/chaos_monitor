@@ -1,0 +1,4 @@
+yanivh2.cs.redislabs.com
+yanivh5.cs.redislabs.com
+yonicluster.cs.redislabs.com
+yuval-openshift3-east.openshift-qa.redislabs.com

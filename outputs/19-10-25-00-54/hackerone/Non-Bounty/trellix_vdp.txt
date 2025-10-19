@@ -1,0 +1,2 @@
+xdrstg.staging.xdr.trellix.com
+xpandctf.trellix.com

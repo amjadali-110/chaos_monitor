@@ -1,0 +1,3 @@
+*.edoverflow.com
+*.securitytxt.org
+www.securitytxt.org

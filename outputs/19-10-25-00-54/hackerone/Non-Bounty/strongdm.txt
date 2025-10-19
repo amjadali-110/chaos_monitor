@@ -1,0 +1,8 @@
+*.ankura.sdm.network
+*.byte-size-innovations.sdm.network
+*.cidars.sdm.network
+*.img-srcx-onerroralertdocumentcookie.sdm.network
+*.peregrine-technologies-inc.sdm.network
+*.sdg-software-india-pvt-ltd.sdm.network
+*.sdm-se-12072.sdm.network
+*.think-networks-peru.sdm.network

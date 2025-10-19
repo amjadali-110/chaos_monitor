@@ -1,0 +1,10 @@
+ga-gw.africa.afso1.aws.indriverapp.com
+ga-gw.latam-co.saea1.aws.indriverapp.com
+ga-gw.latam-mx.usea1.aws.indriverapp.com
+ga-gw.latam-pe.saea1.aws.indriverapp.com
+ga-gw.latam.saea1.aws.indriverapp.com
+ga-gw.mena-eg.meso1.aws.indriverapp.com
+ga-gw.mena.meso1.aws.indriverapp.com
+ga-gw.sa.apso1.aws.indriverapp.com
+ga-gw.sea.apse3.aws.indriverapp.com
+icl-gw.euce1.indriverapp.com

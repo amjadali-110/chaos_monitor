@@ -1,0 +1,5 @@
+ai4bio.stanford.edu
+ai4gene.stanford.edu
+aibio.stanford.edu
+backend.wikifix.genie.stanford.edu
+codeforhumanities.stanford.edu

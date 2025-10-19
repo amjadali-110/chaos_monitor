@@ -1,0 +1,3 @@
+zipkin-ui.dev-ppm.fcs.gsa.gov
+zipkin-ui.mgmt-ppm.fcs.gsa.gov
+zipkin-ui.test-ppm.fcs.gsa.gov

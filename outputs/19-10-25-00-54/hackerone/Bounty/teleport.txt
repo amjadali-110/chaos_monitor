@@ -1,0 +1,3 @@
+pushgateway-external.prod-001.cloud.teleportinfra.sh
+reporting-teleport.teleportinfra.sh
+teleport.teleportinfra.sh

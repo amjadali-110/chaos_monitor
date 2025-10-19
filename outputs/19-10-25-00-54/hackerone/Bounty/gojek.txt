@@ -1,0 +1,2 @@
+http-echo-staging.findaya.co.id
+mgr-pinjam.mgr-infra.team.staging.findaya.co.id

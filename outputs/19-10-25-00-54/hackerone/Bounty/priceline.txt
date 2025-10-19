@@ -1,0 +1,2 @@
+tlstest.rezserver.com
+whitelabel.rezserver.com

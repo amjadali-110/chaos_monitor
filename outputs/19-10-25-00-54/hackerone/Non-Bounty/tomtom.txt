@@ -1,0 +1,9 @@
+cross.dev.tti-cancun.tomtomgroup.com
+hd-road-graph.dev.adas.tomtomgroup.com
+orbis-publisher.dev.adas.tomtomgroup.com
+orbis-publisher.prod.adas.tomtomgroup.com
+panoramix-queue-monitor.prod.adas.tomtomgroup.com
+state-reader-49600.7.discos.orbis.tomtom.com
+web1.teleatlas.com
+web2.teleatlas.com
+www.teleatlas.com

@@ -1,0 +1,5 @@
+delivery.mailers.zomato.com
+zlog-publicvoidlife.zdev.net
+zlog-venetianmaskticino.zdev.net
+zlog-woodenmask.zdev.net
+zlogobatkankermulutrahim.zdev.net

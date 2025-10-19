@@ -1,0 +1,11 @@
+red.newsletter.just-eat.it
+shop.just-eat.it
+sitebuilder.all.justeat-int.com
+test-shop.just-eat.it
+www.just-eat.it
+www.pizza-hot-kingstanding.just-eat.co.uk
+www.pizza-man-food.just-eat.co.uk
+www.prefect-dev.just-data.io
+www.prod.dr.skipthedishes.com
+www.www.just-eat.com
+zipcodeadmin.just-eat.es

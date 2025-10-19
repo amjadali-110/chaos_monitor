@@ -1,0 +1,9 @@
+*.fcg.palantirfoundry.com
+*.topgolf.palantirfoundry.com
+boursin-compute.palantirfoundry.com
+plexus.palantirfoundry.com
+t-mobilysis.palantirfoundry.com
+teletracking-prod.palantirfoundry.com
+tm.palantirfoundry.com
+trv.palantirfoundry.com
+www.palantircloud.co.uk

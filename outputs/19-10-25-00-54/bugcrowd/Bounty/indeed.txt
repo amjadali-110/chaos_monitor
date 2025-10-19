@@ -1,0 +1,2 @@
+flex-core-preprod-uk.qa.indeed.tech
+verify-nginx-private.awsfra1.k8s.indeed.tech

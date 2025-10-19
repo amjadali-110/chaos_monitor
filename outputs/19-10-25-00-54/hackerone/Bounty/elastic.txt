@@ -1,0 +1,2 @@
+dev-sanity-imagevideo-titletext-15768.app.elstc.co
+nginx-ingress-test-90913.elastic-uploader-production.elstc.co

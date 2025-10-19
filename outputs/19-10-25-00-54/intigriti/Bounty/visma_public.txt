@@ -1,0 +1,16 @@
+*.86865.workbox.dk
+*.87025.workbox.dk
+*.87153.workbox.dk
+*.87156.workbox.dk
+*.87158.workbox.dk
+*.87161.workbox.dk
+*.87162.workbox.dk
+*.87168.workbox.dk
+*.87170.workbox.dk
+*.87171.workbox.dk
+*.87172.workbox.dk
+*.87174.workbox.dk
+*.87176.workbox.dk
+api.administration.prod.vismaonline.com
+api.administration.stage.vismaonline.com
+api.administration.test.vismaonline.com

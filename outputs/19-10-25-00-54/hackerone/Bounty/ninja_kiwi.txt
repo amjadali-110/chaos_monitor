@@ -1,0 +1,4 @@
+*.battles.tv
+www.store.ninjakiwi.com
+zombieassault.ninjakiwi.com
+zomg.ninjakiwi.com
