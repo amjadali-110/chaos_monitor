@@ -12,7 +12,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Set, Dict, List, Optional
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from requests.adapters import HTTPAdapter, Retry
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 import time
 
 # Configuration
@@ -84,7 +85,7 @@ class ChaosDownloader:
             total=config.max_retries,
             backoff_factor=RETRY_BACKOFF_FACTOR,
             status_forcelist=[429, 500, 502, 503, 504],
-            allowed_methods=["GET", "HEAD"],
+            allowed_methods=frozenset(["GET", "HEAD"]),
         )
         adapter = HTTPAdapter(max_retries=retries)
         self.session.mount("http://", adapter)
@@ -194,6 +195,9 @@ class ChaosDownloader:
     def download_all(self, entries: List[Dict]) -> Dict:
         """Download all entries concurrently"""
         self.logger.info(f"Starting downloads: {len(entries)} files with {self.config.workers} workers")
+        
+        # Reset results for this run
+        self.results = []
         
         # Create latest directory (subdirectories will be created as needed)
         self.config.latest_dir.mkdir(parents=True, exist_ok=True)
@@ -409,16 +413,8 @@ class ChaosMonitor:
             prev_index = {p.stem.lower(): p for p in prev_zip_files}
             self.logger.info(f"Indexed {len(prev_zip_files)} archives in previous")
 
-        # Prepare outputs directory for this run (timestamped subfolder to preserve history)
-        try:
-            self.config.outputs_dir.mkdir(parents=True, exist_ok=True)
-            # Use a colon-free timestamp for cross-platform safe paths (artifacts disallow ':')
-            timestamp = datetime.now().strftime('%d-%m-%y-%H-%M')
-            run_outputs_dir = self.config.outputs_dir / timestamp
-            run_outputs_dir.mkdir(parents=True, exist_ok=True)
-        except Exception as e:
-            self.logger.error(f"Failed to prepare outputs directory: {e}")
-            run_outputs_dir = self.config.outputs_dir
+        # Lazy-create outputs directory only when new subdomains are found
+        run_outputs_dir: Optional[Path] = None
         all_new_subs: Set[str] = set()
         added_files: List[tuple[str, int]] = []
 
@@ -467,6 +463,16 @@ class ChaosMonitor:
 
                 # Write per-program new subdomains file under outputs/platform/subfolder/
                 try:
+                    # Lazily create run_outputs_dir on first detection
+                    if run_outputs_dir is None:
+                        try:
+                            self.config.outputs_dir.mkdir(parents=True, exist_ok=True)
+                            timestamp = datetime.now().strftime('%d-%m-%y-%H-%M')
+                            run_outputs_dir = self.config.outputs_dir / timestamp
+                            run_outputs_dir.mkdir(parents=True, exist_ok=True)
+                        except Exception as e:
+                            self.logger.error(f"Failed to prepare outputs directory: {e}")
+                            run_outputs_dir = self.config.outputs_dir
                     out_dir = run_outputs_dir / platform / subfolder
                     out_dir.mkdir(parents=True, exist_ok=True)
                     program_file = out_dir / f"{program_name.lower()}.txt"
@@ -488,14 +494,15 @@ class ChaosMonitor:
 
             programs_processed += 1
         
-        # After processing all, write all-new-subs.txt
-        try:
-            all_new_path = run_outputs_dir / 'all-new-subs.txt'
-            with open(all_new_path, 'w', encoding='utf-8') as f:
-                for s in sorted(all_new_subs):
-                    f.write(s + "\n")
-        except Exception as e:
-            self.logger.error(f"Failed to write all-new-subs.txt: {e}")
+        # After processing all, write all-new-subs.txt only if there were new subdomains
+        if run_outputs_dir is not None and all_new_subs:
+            try:
+                all_new_path = run_outputs_dir / 'all-new-subs.txt'
+                with open(all_new_path, 'w', encoding='utf-8') as f:
+                    for s in sorted(all_new_subs):
+                        f.write(s + "\n")
+            except Exception as e:
+                self.logger.error(f"Failed to write all-new-subs.txt: {e}")
         
         # Step 6: Rotate directories for next run
         self.logger.info("Phase 5: Rotating directories...")
@@ -518,12 +525,7 @@ class ChaosMonitor:
                 f"⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
             )
         else:
-            msg = (
-                f"✅ Scan complete — no new subdomains\n"
-                f"📋 Programs processed: {programs_processed}\n"
-                f"📦 Output: {run_outputs_dir.as_posix()}\n"
-                f"⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-            )
+            msg = "✅ No new subdomains detected"
         self.telegram.send_message(msg)
 
 def main():
