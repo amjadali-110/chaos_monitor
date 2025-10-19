@@ -2,7 +2,9 @@ name: Chaos Monitor
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 1 * * *'
+    - cron: '0 2 * * *'
+    - cron: '0 3 * * *'
   workflow_dispatch: {}
 
 concurrency:
@@ -62,28 +64,22 @@ jobs:
         with:
           name: chaos-downloads-${{ github.run_id }}
           path: downloads/**
+          if-no-files-found: ignore
 
       - name: Upload outputs as artifact
-        if: always()
+        if: ${{ hashFiles('outputs/**/*.txt') != '' }}
         uses: actions/upload-artifact@v4
         with:
           name: chaos-outputs-${{ github.run_id }}-${{ env.RUN_TS }}
           path: outputs/**
-          if-no-files-found: ignore
 
       - name: Commit outputs to repo
-        if: always()
+        if: ${{ hashFiles('outputs/**/*.txt') != '' }}
         continue-on-error: true
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          
-          # Check if outputs directory exists and has content
-          if [ ! -d "outputs" ] || [ -z "$(find outputs -name '*.txt' 2>/dev/null)" ]; then
-            echo "No outputs to commit - outputs directory is empty or doesn't exist"
-            exit 0
-          fi
           
           echo "Adding outputs directory to git..."
           git add outputs || { echo "Warning: Failed to add outputs"; exit 0; }
