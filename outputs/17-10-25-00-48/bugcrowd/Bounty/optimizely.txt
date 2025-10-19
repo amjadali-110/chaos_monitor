@@ -1,3 +1,0 @@
-cypress.inte.analytics.optimizely.com
-cypress.prep.analytics.optimizely.com
-ss-calc-mfe.optimizely.com

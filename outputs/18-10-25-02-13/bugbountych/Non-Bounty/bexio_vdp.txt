@@ -1,2 +1,0 @@
-zendesk4.bexio.com
-zuora-reconciliation.it.bexio.com

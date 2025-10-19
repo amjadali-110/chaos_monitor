@@ -1,3 +1,0 @@
-www.tilmeld.dev.june.dk
-www.tilmeld.staging.june.dk
-www.tilmeld.test.june.dk

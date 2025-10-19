@@ -1,3 +1,0 @@
-ws-api.upstox.com
-www.outbound.upstox.com
-www.upstox.com

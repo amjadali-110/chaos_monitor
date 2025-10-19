@@ -1,7 +1,0 @@
-*.build.ans.aliyun-inc.com
-*.hpda-composer.ehpc.cn-beijing.aliyun.com
-build.ans.aliyun-inc.com
-hpda-composer.ehpc.cn-beijing.aliyun.com
-zhuhai.koubei.com
-zhushang33.dian.koubei.com
-zip.koubei.com

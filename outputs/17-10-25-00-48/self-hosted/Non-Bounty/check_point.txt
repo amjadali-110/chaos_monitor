@@ -1,9 +1,0 @@
-*.s1c-proxy.ca.portal.checkpoint.com
-proxy-service-stg-aue.datatube.checkpoint.com
-proxy-service-stg-aus.datatube.checkpoint.com
-stg-aue.datatube.checkpoint.com
-stg-aus.datatube.checkpoint.com
-swagger-aue-stg.az.kube1.iaas.checkpoint.com
-swagger-weu-stg.az.kube1.iaas.checkpoint.com
-zoom.checkpoint.com
-zta-saseqa.checkpoint.com

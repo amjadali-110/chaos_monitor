@@ -1,7 +1,0 @@
-*.86993.workbox.dk
-*.87141.workbox.dk
-*.87142.workbox.dk
-*.87147.workbox.dk
-administration.test.vismaonline.com
-www.vntc-proxy.stage.vismaonline.com
-www.wtse.vismaonline.com

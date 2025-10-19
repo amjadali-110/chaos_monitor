@@ -1,2 +1,0 @@
-*.otlp.us.prod.insights-pipeline.internal.algolia.com
-otlp.us.prod.insights-pipeline.internal.algolia.com

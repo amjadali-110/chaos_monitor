@@ -1,8 +1,0 @@
-adventure.compass.dcl.wdpr.disney.com
-contractapiqa.wdprapps.disney.com
-destiny.debezium-server.dcl.wdpr.disney.com
-etp-dev-aa1.wdw.disney.com
-wltdin-brsp-0-wc.net.disney.com
-za.secure.hotstar.com
-zam-qa.lucasfilm.com
-zurichtest.disneyanimation.com

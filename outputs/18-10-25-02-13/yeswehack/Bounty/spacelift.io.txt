@@ -1,2 +1,0 @@
-webhooks.spacelift.dev
-worker-iot.spacelift.dev

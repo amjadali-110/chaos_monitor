@@ -1,9 +1,0 @@
-webapi-nonprod.moneytransfer.retail.us.westernunion.com
-webapi.moneytransfer.retail.us.westernunion.com
-www.business.westernunion.lu
-www.ebanking.westernunionbank.com
-www.westernunion.lu
-www.www2.westernunion.fr
-www.www2.westernunion.lu
-www2.westernunion.fr
-www2.westernunion.lu

@@ -1,3 +1,0 @@
-domain-admin.olaelectric.in
-kong-ev-stg.olaelectric.in
-www.olaelectric.in

@@ -1,4 +1,0 @@
-api.testnet.zilliqa.com
-api.zq2-testnet.zilliqa.com
-health.zq2-testnet.zilliqa.com
-zindex.zilliqa.com

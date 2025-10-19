@@ -1,2 +1,0 @@
-www.api.custellence.com
-www.stagingapi.custellence.com

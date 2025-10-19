@@ -1,5 +1,0 @@
-beca-au-pw-tmp.bentley.com
-opentoweriq-deliveryportal-staging.bentley.com
-opentoweriq-deliveryportal.bentley.com
-qa-opentoweriq-deliveryportal-staging.bentley.com
-qa-opentoweriq-deliveryportal.bentley.com

@@ -1,3 +1,0 @@
-mta-sts.test.tuta.io
-mta-sts.tuta.io
-www.mail.test.tutanota.de

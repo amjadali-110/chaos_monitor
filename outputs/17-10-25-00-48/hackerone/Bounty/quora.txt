@@ -1,4 +1,0 @@
-*.mreilly-graviton.dev.quora.com
-*.mreilly-graviton.main.quora.com
-*.mreilly.dev.quora.com
-*.mreilly.main.quora.com

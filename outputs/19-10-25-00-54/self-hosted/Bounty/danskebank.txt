@@ -1,2 +1,0 @@
-zem-integration-syst.danskebank.com
-zenostockclient.danskebank.com

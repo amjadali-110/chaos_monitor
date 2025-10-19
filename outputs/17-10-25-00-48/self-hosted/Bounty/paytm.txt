@@ -1,4 +1,0 @@
-*.internal.me-central-1.production.lending-uae.risk.pai.mypaytm.com
-face-dedup.mypaytm.com
-internal.me-central-1.production.lending-uae.risk.pai.mypaytm.com
-lending-uae.risk.pai.mypaytm.com

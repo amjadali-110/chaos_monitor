@@ -1,8 +1,0 @@
-auth.cidp-eu.db.com
-fsf.cidp.db.com
-lonasmdmau1.uk.db.com
-lonasmdmfu1.uk.db.com
-staging.lms.deutsche.bank.intranet.db.com
-staging.losapi.deutsche.bank.intranet.db.com
-staging.uat.dbidentity.db.com
-staging.uat.dbidentity.intranet.db.com

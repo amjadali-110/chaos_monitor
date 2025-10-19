@@ -1,9 +1,0 @@
-alpha.luckey.fr
-page-slot-update-mode-airbnb-vercel-bot.airbnb.app
-release.luckey.fr
-rita-li-homes-host-loop-airbnb-vercel-bot.airbnb.app
-styx.airbnb-aws.com
-traffic-monitor.airbnb-aws.com
-www.airbnb.app
-www.luckey.fr
-www.staging.urbandoor.com

@@ -1,2 +1,0 @@
-api.direct.testnet.bitmex.com
-direct.testnet.bitmex.com

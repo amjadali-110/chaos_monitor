@@ -1,2 +1,0 @@
-coal.salesforce.pat.td.com
-coal.salesforce.prod.td.com

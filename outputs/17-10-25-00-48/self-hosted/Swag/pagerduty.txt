@@ -1,6 +1,0 @@
-cd-2cce415300b306222f24945aa4f88ad9.hosted-status.pagerduty.com
-cd-5e39e63a7b60b14e686f83412d668e0f.hosted-status.pagerduty.com
-prod-services-elb.csg.pagerduty.com
-yoursubdomain.pagerduty.com
-zoominfo.pagerduty.com
-zoomvideo.pagerduty.com

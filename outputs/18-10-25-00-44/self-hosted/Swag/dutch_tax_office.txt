@@ -1,4 +1,0 @@
-zoeken.belastingdienst.nl
-zta-ont.belastingdienst.nl
-zta-ota.belastingdienst.nl
-zta.belastingdienst.nl

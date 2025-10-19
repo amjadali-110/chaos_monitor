@@ -1,2 +1,0 @@
-rpc.hakka.finance
-tvl.hakka.finance

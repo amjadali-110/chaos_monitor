@@ -1,8 +1,0 @@
-*.cn-shanghai-stg-intranet.log.aliyuncs.com
-*.cn-shanghai-stg-share.log.aliyuncs.com
-xy.ele.me
-youcai.ele.me
-zaocan.ele.me
-zeus.aliyun-inc.com
-zk02.aliyun-inc.com
-zy.youku.com

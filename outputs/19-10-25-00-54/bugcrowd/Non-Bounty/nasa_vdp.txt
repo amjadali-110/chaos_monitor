@@ -1,2 +1,0 @@
-monitoring.dev-global.fast.luna.nasa.gov
-ordem-test.staging.mmod.appdat.jsc.nasa.gov

@@ -1,2 +1,0 @@
-demo-cmt-rfq.siliconexpert.com
-qa-banalyzer.siliconexpert.com

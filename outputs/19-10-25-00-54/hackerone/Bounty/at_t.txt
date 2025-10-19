@@ -1,4 +1,0 @@
-nexxus-eastus2-prod-ird-pls.az.3pc.att.com
-nexxus-eastus2-prod-ird-vm-01.az.3pc.att.com
-zx02h8-ems.ny.us.att.com
-zzlty39499.vci.att.com

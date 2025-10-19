@@ -1,9 +1,0 @@
-*.notebooks.cloudflare.com
-assets.autorag.ai.cloudflare.com
-containers-staging.mcp.cloudflare.com
-notebooks.cloudflare.com
-radar-staging.mcp.cloudflare.com
-radar.mcp.cloudflare.com
-xxvvmmj2028603467db5f.cloudflareworkers.com
-xxvvmmj323732610867db5f.cloudflareworkers.com
-zxxvvmm744a1e.cloudflareworkers.com

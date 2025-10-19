@@ -1,2 +1,0 @@
-*.xh.qq.com
-kfapi.qq.com

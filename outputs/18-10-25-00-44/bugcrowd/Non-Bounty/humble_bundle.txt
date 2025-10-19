@@ -1,2 +1,0 @@
-auth.stg.humblebundle.com
-storybook.stg.humblebundle.com

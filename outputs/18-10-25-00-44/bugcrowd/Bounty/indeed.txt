@@ -1,2 +1,0 @@
-adcentralcache.awscmh6.k8s.indeed.tech
-label-studio-explainer-prod.indeed.tech

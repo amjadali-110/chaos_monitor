@@ -1,9 +1,0 @@
-app.gwk.gopayapi.com
-gwk.gopayapi.com
-infrastructure-engineering.governance.team.app.gwk.gopayapi.com
-infrastructure-engineering.governance.team.gwk.gopayapi.com
-infrastructure-engineering.governance.team.merchant.gwk.gopayapi.com
-merchant.gwk.gopayapi.com
-wonderland-153.gojekapi.com
-www.gojekapi.com
-www.gopaycc.gojekapi.com

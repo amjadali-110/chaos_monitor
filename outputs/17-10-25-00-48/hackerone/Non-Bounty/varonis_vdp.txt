@@ -1,4 +1,0 @@
-www.wwwdev.varonis.com
-wwwdev-sites.varonis.com
-wwwdev.varonis.com
-wwwqa.varonis.com

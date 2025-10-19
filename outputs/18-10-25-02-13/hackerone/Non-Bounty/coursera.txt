@@ -1,3 +1,0 @@
-zentral.corp.coursera.org
-zh-tw.coursera.org
-zh.coursera.org

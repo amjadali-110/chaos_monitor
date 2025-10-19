@@ -1,4 +1,0 @@
-www.boozt.com
-www.parcel-api.boozt.com
-www.parcel.api.boozt.com
-www.t.boozt.com

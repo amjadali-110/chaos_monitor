@@ -1,2 +1,0 @@
-zendash.githubapp.com
-zendesk-gh-sidecar-proxy-production.githubapp.com

@@ -1,2 +1,0 @@
-young-ostrich-01.rmq.cloudamqp.com
-young-teal-beetle-01.rmq4.cloudamqp.com

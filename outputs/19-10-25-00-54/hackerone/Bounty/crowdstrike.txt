@@ -1,6 +1,0 @@
-*.crowdstrike.org
-maintenance.crowdstrike.org
-mta-sts.crowdstrike.org
-www.crowdstrike.org
-www.falcon-sandbox.com
-zenimax.falcon-sandbox.com

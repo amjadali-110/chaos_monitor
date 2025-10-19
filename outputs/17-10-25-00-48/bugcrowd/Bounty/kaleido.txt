@@ -1,2 +1,0 @@
-staging.api.unscreen.com
-www.unscreen.com

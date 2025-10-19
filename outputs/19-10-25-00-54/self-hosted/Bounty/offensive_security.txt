@@ -1,4 +1,0 @@
-redmine.backtrack-linux.org
-www.backtrack-linux.org
-www.support.offensive-security.com
-zeus.kali.org

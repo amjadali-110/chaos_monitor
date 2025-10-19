@@ -1,9 +1,0 @@
-test.api.dasani.com
-ws.sms.surge.com
-www.coca-colaukraine.com
-www.dasani.com
-www.pe.topochico.com
-www.surge.com
-www.vebatcoke.com
-www.za.topochico.com
-za.topochico.com

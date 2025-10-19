@@ -1,5 +1,0 @@
-vpn-us1.mycontactual.com
-www.mycontactual.com
-www2.mycontactual.com
-xmpp-st-sg-01.vi.wavecell.com
-znethome.dxi.eu

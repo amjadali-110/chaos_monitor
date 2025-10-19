@@ -1,4 +1,0 @@
-email.email.workatastartup.com
-sso-auth.workatastartup.com
-www.staging.startupschool.org
-www.workatastartup.com

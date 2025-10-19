@@ -1,5 +1,0 @@
-*.global-auth.floqast.app
-*.hackme-global-auth.floqast.app
-*.system.hackme-global-auth.floqast.app
-hackme-global-auth.floqast.app
-system.hackme-global-auth.floqast.app

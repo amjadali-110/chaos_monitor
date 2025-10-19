@@ -1,2 +1,0 @@
-static-api-staging.nkstatic.com
-thumbs.nkstatic.com

@@ -1,4 +1,0 @@
-staging.fb.songlink.io
-v3.songlink.io
-v3.staging.songlink.io
-www.songlink.io

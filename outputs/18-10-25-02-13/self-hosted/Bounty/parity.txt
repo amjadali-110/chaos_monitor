@@ -1,5 +1,0 @@
-acoustic-easy-k8s-westend-073566-2397.pdp-stg-scw.parity.io
-xp-preview.parity-prod.parity.io
-xp-preview.parity-stg.parity.io
-xp.parity-prod.parity.io
-xp.parity-stg.parity.io

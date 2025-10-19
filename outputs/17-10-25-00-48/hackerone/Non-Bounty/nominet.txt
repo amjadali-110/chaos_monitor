@@ -1,4 +1,0 @@
-www.listapi.nominet.org.uk
-www1-vip.nominet.org.uk
-www2-vip.nominet.org.uk
-zdns-testbed.nominet.org.uk

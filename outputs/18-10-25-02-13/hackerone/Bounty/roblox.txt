@@ -1,6 +1,0 @@
-grpc.mrrouter-env-manager.stage.rbx.com
-test.ee-temporal.rbx.com
-www.wiki.roblox.com
-www2.roblox.com
-xn--www-rp0a.roblox.com
-xww.roblox.com

@@ -1,3 +1,0 @@
-ci-renovate-spotify-backstage.dev.sdp.surf.nl
-oidc-rp.pilot1.sram.surf.nl
-zulip.sram.lab.surf.nl

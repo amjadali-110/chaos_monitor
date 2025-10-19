@@ -1,3 +1,0 @@
-status.getbambu.com
-trellix.getbambu.com
-www.getbambu.com

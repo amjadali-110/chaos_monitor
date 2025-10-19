@@ -1,9 +1,0 @@
-k8s.lh-cloud.acronis.work
-www.tableau.acronis.work
-www.thrift.acronis.work
-www.zeppelin.acronis.work
-za01-cloud.acronis.com
-zabbix-baas.acronis.com
-zeppelin.acronis.work
-zia1-repo.acronis.com
-zrh1-repo.acronis.com

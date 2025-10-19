@@ -1,6 +1,0 @@
-mtls-apawar-testing-app.aws-classic.dev-us1.dev.kafka-v1.twilio.com
-mtls-apawar-testing-app.twilio.com
-twlo-operational-analytics.internal-pages.twilio.com
-vmware-staging.authy.com
-vmware.authy.com
-www.authy.com

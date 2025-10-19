@@ -1,4 +1,0 @@
-dev3.harmanaudio.com
-stg2.register.harmankardon.com
-stgplus.harmanaudio.com
-www.staging.harmankardon.com

@@ -1,2 +1,0 @@
-vault-staging.getmoneytree.com
-web-au-api-staging.getmoneytree.com

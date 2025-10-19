@@ -1,4 +1,0 @@
-cd-0e04901aa70a5fc0673c7e2043f3aa97.hosted-status.pagerduty.com
-cd-6022b519bae6e27d5a59ae413a28d761.hosted-status.pagerduty.com
-cd-a0fa7f44b93c27c31595105070db03ba.hosted-status.pagerduty.com
-portallegacy-test.innovation.csg.pagerduty.com

@@ -1,2 +1,0 @@
-npm-origin.qa.walmart.com
-wcsportal.walmart.com

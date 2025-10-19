@@ -1,2 +1,0 @@
-ingestion-scheduler.staging.data-acq.shopifykloud.com
-www.exchangemarketplace.com

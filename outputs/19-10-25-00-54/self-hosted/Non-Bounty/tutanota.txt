@@ -1,5 +1,0 @@
-mta-sts.keemail.me
-mta-sts.test.keemail.me
-mta-sts.test.tutamail.com
-mta-sts.tutamail.com
-vps.keemail.me

@@ -1,5 +1,0 @@
-*.crdb-migrate-1.cloud.gravitational.io
-*.hugo-test-mu-18.cloud.gravitational.io
-crdb-migrate-1.cloud.gravitational.io
-hugo-test-mu-18.cloud.gravitational.io
-zypper.releases.development.teleport.dev

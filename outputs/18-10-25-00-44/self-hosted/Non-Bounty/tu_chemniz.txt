@@ -1,5 +1,0 @@
-17-121-120-37.dict.tu-chemniz.de
-17-121-122-26.origin.tu-chemniz.de
-dhcp83-152-87-scuddawn.shop.tu-chemniz.de
-h-135-197-232-29.shop.tu-chemniz.de
-ipv4-c048-ber001-ix.upload-8.tu-chemniz.de

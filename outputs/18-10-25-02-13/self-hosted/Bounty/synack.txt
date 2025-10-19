@@ -1,3 +1,0 @@
-api.synack.com
-jira-cloud.synack.com
-notifications.synack.com

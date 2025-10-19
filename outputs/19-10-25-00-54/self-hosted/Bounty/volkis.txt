@@ -1,2 +1,0 @@
-*.volk.is
-aad.volk.is

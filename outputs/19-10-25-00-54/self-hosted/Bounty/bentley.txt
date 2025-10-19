@@ -1,7 +1,0 @@
-aecom-na-pwc.bentley.com
-dev-connect-watersight1.bentley.com
-gprapi-staging.bentley.com
-gprapi.bentley.com
-m-b-pw-ws.bentley.com
-m-b-pw.bentley.com
-qa-viewer-server-eus-staging.itwin.bentley.com

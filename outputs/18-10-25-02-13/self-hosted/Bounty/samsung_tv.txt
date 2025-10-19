@@ -1,2 +1,0 @@
-yourservice.samsung.com
-zoneftp2.sea.samsung.com

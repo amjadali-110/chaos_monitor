@@ -1,2 +1,0 @@
-rpc-mainnet.uniultra.xyz
-rpc-nebulas-testnet.uniultra.xyz

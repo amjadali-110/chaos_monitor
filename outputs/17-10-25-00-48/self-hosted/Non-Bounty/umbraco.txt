@@ -1,3 +1,0 @@
-www.dashboard.umbraco.com
-www.nl.umbraco.com
-www.try.umbraco.com

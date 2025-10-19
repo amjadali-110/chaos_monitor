@@ -1,6 +1,0 @@
-*.hellorory.com
-start.hellorory.com
-try.hellorory.com
-view.hcp.myplenity.com
-www.hellorory.com
-www.myplenity.com

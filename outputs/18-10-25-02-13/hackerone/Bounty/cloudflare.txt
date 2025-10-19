@@ -1,7 +1,0 @@
-*.platform.dash.staging.fed.cloudflare.com
-agents.staging.realtime.cloudflare.com
-db-migrator.staging.realtime.cloudflare.com
-docs.mcp.cloudflare.com
-images.mcp.cloudflare.com
-platform.dash.staging.fed.cloudflare.com
-xswrandomyiffjjj5aa406cd0.cloudflareworkers.com

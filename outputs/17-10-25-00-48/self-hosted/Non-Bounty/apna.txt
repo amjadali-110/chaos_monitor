@@ -1,2 +1,0 @@
-candidate-applications.production.infra.apna.co
-itsupport.infra.apna.co

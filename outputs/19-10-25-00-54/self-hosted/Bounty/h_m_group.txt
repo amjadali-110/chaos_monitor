@@ -1,5 +1,0 @@
-cdp.co.hm.com
-www.sellercenter.afound.com
-www.staging.monki.com
-wwwtest.monki.com
-wwwtest.staging.monki.com

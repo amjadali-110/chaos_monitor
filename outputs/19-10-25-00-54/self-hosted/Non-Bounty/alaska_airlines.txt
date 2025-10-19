@@ -1,3 +1,0 @@
-xids.alaskaair.com
-zenossdev.alaskaair.com
-zenossprod.alaskaair.com

@@ -1,7 +1,0 @@
-apawar-mtls-test-app.data-platform.dev-us1.dev.kafka-v1.twilio.com
-apawar-mtls-test-app.twilio.com
-jverdugo-test-app.aws-classic.dev-us1.dev.kafka-v1.twilio.com
-jverdugo-test-app.twilio.com
-mtls-akshay-test-app.aws-classic.dev-us1.dev.kafka-v1.twilio.com
-mtls-akshay-test-app.twilio.com
-studio-link-shortening.prod.twilio.com

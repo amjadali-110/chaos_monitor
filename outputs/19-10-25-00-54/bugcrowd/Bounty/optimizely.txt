@@ -1,4 +1,0 @@
-*.inte.opal-backend.optimizely.com
-api.cmab.optimizely.com
-prod.app.optimizely.com
-stats-util.optimizely.com

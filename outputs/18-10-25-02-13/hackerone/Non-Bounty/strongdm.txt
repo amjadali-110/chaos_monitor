@@ -1,7 +1,0 @@
-*.aquila.sdm.network
-*.bill.sdm.network
-*.clothes.sdm.network
-*.cloudsecasia.sdm.network
-*.kfai.sdm.network
-*.pandora-llc.sdm.network
-*.scgjwd.sdm.network

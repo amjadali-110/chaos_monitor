@@ -1,2 +1,0 @@
-mtf.networkacs.mastercard.com
-networkacs.mastercard.com

@@ -1,4 +1,0 @@
-*.dev23566i.bru.dev.bexio.com
-*.qa-fixtures.bru.dev.bexio.com
-*.scalateam.bru.dev.bexio.com
-archive.bexio-preprod.gcp.bexio.com

@@ -1,4 +1,0 @@
-appps-dev.pes-preprod.nike.com
-zodiac-dev.nike.com
-zodiac-qa.nike.com
-zodiac-sonar.nike.com

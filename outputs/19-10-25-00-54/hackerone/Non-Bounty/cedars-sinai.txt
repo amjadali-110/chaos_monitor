@@ -1,7 +1,0 @@
-cs.kerlanjobe.org
-secondopinion-portal-test.cedars-sinai.org
-secondopinion-portal.cedars-sinai.org
-www.jobs.cedars-sinai.edu
-www.kerlanjobe.org
-www.resadmin.cedars-sinai.edu
-www.researchers.cedars-sinai.edu

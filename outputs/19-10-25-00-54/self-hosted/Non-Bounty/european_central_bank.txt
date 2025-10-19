@@ -1,3 +1,0 @@
-cr-test.01dev.eea.europa.eu
-stress.eudr.webcloud.ec.europa.eu
-webforms-test.01dev.eea.europa.eu

@@ -1,2 +1,0 @@
-zuora.api.esb-tst.cusa.canon.com
-zuora.api.esb.usa.canon.com

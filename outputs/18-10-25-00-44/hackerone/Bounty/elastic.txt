@@ -1,9 +1,0 @@
-cloud-ui.gcp.qa.cld.elstc.co
-dev-blogarchiveoverview-link-16150.app.elstc.co
-dev-blogseo-16371.app.elstc.co
-dev-pdfs-noindex-10771.app.elstc.co
-dev-videos-status-bug-15502.app.elstc.co
-nginx-ingress-test-04209.ea-demo-staging.elstc.co
-www.signal.inf.elasticnet.co
-zathras.inf.elasticnet.co
-zocalo.inf.elasticnet.co

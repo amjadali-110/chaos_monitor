@@ -1,5 +1,0 @@
-ldap.pcc-37-59-190-155.ovh.com
-nsxt.pcc-51-68-8-10.ovh.com
-www.ldap.pcc-37-59-190-155.ovh.com
-www.nsxt.pcc-51-68-8-10.ovh.com
-www.plugin.pcc-51-68-8-10.ovh.com

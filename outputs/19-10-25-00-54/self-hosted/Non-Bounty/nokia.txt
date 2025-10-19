@@ -1,7 +1,0 @@
-*.eks-133-eed1a4.nuke-aws.labs.cns.nokia.com
-*.flbwkld3-vgjdz.aut.saas.nokia.com
-*.lt1013wkla-bxpqs.aut.saas.nokia.com
-*.vb1018a-6mlt6.aut.saas.nokia.com
-zts-north.eu.software.nokia.com
-zvawapp020.ext.nokia.com
-zwww.partners.nokia.com

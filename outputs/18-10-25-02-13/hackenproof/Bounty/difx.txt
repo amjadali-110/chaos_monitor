@@ -1,2 +1,0 @@
-beta.difx.com
-staging-bot.difx.com

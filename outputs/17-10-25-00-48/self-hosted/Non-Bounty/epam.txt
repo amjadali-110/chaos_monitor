@@ -1,3 +1,0 @@
-mcp-kubectl-ro.default-lb-epm-alpa-ant-rdptstg.epm-alpa-ant-rdptstg.eu.aws.cloudapp.epam.com
-mcp-kubectl-ro.epm-rdpt-ant-dev-default-lb.epm-rdpt-ant-dev.eu.aws.cloudapp.epam.com
-mcp-kubectl.epm-rdpt-ant-dev-default-lb.epm-rdpt-ant-dev.eu.aws.cloudapp.epam.com

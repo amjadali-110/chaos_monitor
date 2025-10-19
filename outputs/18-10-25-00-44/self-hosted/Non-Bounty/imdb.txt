@@ -1,3 +1,0 @@
-yoursay.imdb.com
-yualbert.dev.graphql.imdb.com
-zhiyunll.desktop.imdb.com

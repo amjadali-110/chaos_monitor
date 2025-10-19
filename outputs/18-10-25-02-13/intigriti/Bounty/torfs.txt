@@ -1,4 +1,0 @@
-*.schoenentorfs.be
-localhost.schoenentorfs.be
-www.schoenentorfs.be
-wwwold.www-cf.schoenentorfs.nl

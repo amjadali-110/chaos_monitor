@@ -1,8 +1,0 @@
-magpie-prod.dcaf.dev.use1a.on.epicgames.com
-upm-feed.catapult-dev.oncatapult.com
-web.cms-dev.oncatapult.com
-web2.cms-dev.oncatapult.com
-www2.app.sandbox.superawesome.com
-youtube.staging.superawesome.com
-youtube.superawesome.com
-zeus-service.fortnite.com

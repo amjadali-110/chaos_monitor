@@ -1,3 +1,0 @@
-wristband.gke-stage.postmates.com
-www.blog.postmates.com
-www.postmates.com

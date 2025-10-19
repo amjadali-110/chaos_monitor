@@ -1,7 +1,0 @@
-glia.vanillacommunities.com
-glia.vanillastaging.com
-zapier-dev.vanilladevelopment.com
-zapier-integration.vanilladevelopment.com
-zynga.vanillastaging.com
-zyxel.vanillastaging.com
-zyxelcloud.vanillastaging.com

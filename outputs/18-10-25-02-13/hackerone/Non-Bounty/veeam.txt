@@ -1,4 +1,0 @@
-yurydemo.dev.azure.kasten.io
-yurydemo.dev.do.kasten.io
-yurydemo2.dev.do.kasten.io
-zap-eric-nadeau.aws.kasten.io

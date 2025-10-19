@@ -1,8 +1,0 @@
-apigtw-icorp-atl.dell.com
-apigtw-icorp-pc1.dell.com
-apigtw-icorp-s3b.dell.com
-apigtw-outbound-atl.dell.com
-apigtw-outbound-pc1.dell.com
-apigtw-outbound-s3b.dell.com
-xtremiosizerwww.mobiledev.dellemc.com
-yodagfxapi.mobiledev.dellemc.com

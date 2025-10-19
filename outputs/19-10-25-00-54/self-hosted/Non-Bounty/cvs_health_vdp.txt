@@ -1,8 +1,0 @@
-airflow-pumace-preprod.cvshealth.com
-airflow-pumace-uat.cvshealth.com
-api-pumace-preprod.cvshealth.com
-api-pumace-uat.cvshealth.com
-apigw-pumace-preprod.cvshealth.com
-apigw-pumace-uat.cvshealth.com
-canary-orchestrator.iaaslab-dev.cvshealth.com
-observability.preprod.pse.cvshealth.com
