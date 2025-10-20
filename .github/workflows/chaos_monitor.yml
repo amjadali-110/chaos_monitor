@@ -43,16 +43,6 @@ jobs:
           go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
           go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 
-      - name: Verify tools
-        run: |
-          which dnsx && dnsx -version || true
-          which httpx && httpx -version || true
-          which nuclei && nuclei -version || true
-
-      - name: Update nuclei templates (optional)
-        run: |
-          nuclei -ut || true
-
       - name: Run Chaos Monitor
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
