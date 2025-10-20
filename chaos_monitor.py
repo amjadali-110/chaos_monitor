@@ -15,9 +15,6 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 import time
-import subprocess
-import platform
-import tarfile
 
 # Configuration
 CHUNK_SIZE = 1024 * 64  # 64KB
@@ -365,183 +362,6 @@ class ChaosMonitor:
         except Exception as e:
             self.logger.error(f"Failed to rotate directories: {e}")
     
-    def ensure_pd_tools(self) -> None:
-        """Ensure Go and ProjectDiscovery tools are installed, but only when scans are needed."""
-        try:
-            go_path = shutil.which("go")
-            if not go_path:
-                # Attempt local, non-root Go install
-                self.logger.info("Go not found; attempting local installation")
-                try:
-                    # Determine platform
-                    sys = platform.system().lower()
-                    arch = platform.machine().lower()
-                    if sys.startswith("linux"):
-                        os_tag = "linux"
-                    elif sys.startswith("darwin"):
-                        os_tag = "darwin"
-                    else:
-                        os_tag = sys
-                    if arch in ("x86_64", "amd64"):
-                        arch_tag = "amd64"
-                    elif arch in ("aarch64", "arm64"):
-                        arch_tag = "arm64"
-                    else:
-                        arch_tag = arch
-
-                    # Get latest Go version
-                    version = "go1.22.5"
-                    try:
-                        r = requests.get("https://go.dev/VERSION?m=text", timeout=20)
-                        if r.ok and r.text.strip().startswith("go"):
-                            version = r.text.strip().splitlines()[0]
-                    except Exception:
-                        pass
-
-                    url = f"https://dl.google.com/go/{version}.{os_tag}-{arch_tag}.tar.gz"
-                    tools_dir = Path(".tools")
-                    tools_dir.mkdir(parents=True, exist_ok=True)
-                    tar_path = tools_dir / "go.tgz"
-
-                    with requests.get(url, stream=True, timeout=60) as resp:
-                        resp.raise_for_status()
-                        with open(tar_path, "wb") as f:
-                            for chunk in resp.iter_content(chunk_size=CHUNK_SIZE):
-                                if chunk:
-                                    f.write(chunk)
-                    # Extract
-                    goroot = tools_dir / "go"
-                    if goroot.exists():
-                        shutil.rmtree(goroot, ignore_errors=True)
-                    with tarfile.open(tar_path, "r:gz") as tf:
-                        # The archive root is "go/"; extract into tools_dir
-                        tf.extractall(path=tools_dir)
-                    # Update environment
-                    os.environ["GOROOT"] = str(goroot)
-                    os.environ["PATH"] = str(goroot / "bin") + os.pathsep + os.environ.get("PATH", "")
-                    go_path = str(goroot / "bin" / "go")
-                    self.logger.info(f"Installed Go at {goroot}")
-                except Exception as e:
-                    self.logger.warning(f"Failed to auto-install Go: {e}")
-                    return
-
-            # Ensure GOPATH/bin is on PATH for this process
-            try:
-                gopath = subprocess.check_output([go_path, "env", "GOPATH"], text=True).strip()
-                if not gopath:
-                    gopath = str(Path.home() / "go")
-                bin_dir = os.path.join(gopath, "bin")
-                if bin_dir and bin_dir not in os.environ.get("PATH", ""):
-                    os.environ["PATH"] = bin_dir + os.pathsep + os.environ.get("PATH", "")
-            except Exception as e:
-                self.logger.debug(f"Failed to resolve GOPATH: {e}")
-
-            tools = {
-                "dnsx": "github.com/projectdiscovery/dnsx/cmd/dnsx@latest",
-                "httpx": "github.com/projectdiscovery/httpx/cmd/httpx@latest",
-                "nuclei": "github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest",
-            }
-            for tool, module in tools.items():
-                if shutil.which(tool):
-                    continue
-                self.logger.info(f"Installing missing tool: {tool}")
-                subprocess.run([go_path, "install", "-v", module], check=False)
-                if not shutil.which(tool):
-                    self.logger.warning(f"{tool} still not found after install attempt")
-
-            # Optionally update nuclei templates if nuclei is available
-            if shutil.which("nuclei"):
-                subprocess.run(["nuclei", "-ut"], check=False)
-        except Exception as e:
-            self.logger.warning(f"Tool installation step failed: {e}")
-
-    def run_scans(self, run_outputs_dir: Path, all_new_path: Path) -> None:
-        """Run dnsx, httpx, and nuclei scans on the aggregated new subdomains file."""
-        try:
-            # Ensure tools present (for local runs; CI also installs them)
-            self.ensure_pd_tools()
-
-            scans_dir = run_outputs_dir / "Scans"
-            scans_dir.mkdir(parents=True, exist_ok=True)
-
-            # dnsx step
-            if shutil.which("dnsx"):
-                dnsx_first = scans_dir / "dnsx_first.txt"
-                final_dnsx = scans_dir / "final-dnsx.txt"
-                self.logger.info(f"Running dnsx on {all_new_path.name}")
-                self.telegram.send_message("dnsx scan run")
-                dnsx_cmd = [
-                    "dnsx", "-l", str(all_new_path),
-                    "-cname", "-aaaa", "-a", "-mx", "-ns",
-                    "-retry", "5", "-o", str(dnsx_first)
-                ]
-                dnsx_proc = subprocess.run(dnsx_cmd, check=False)
-                # Post-process: sort -u into final-dnsx.txt
-                try:
-                    with open(dnsx_first, 'r', encoding='utf-8', errors='ignore') as rf:
-                        lines = [ln.strip() for ln in rf if ln.strip()]
-                    uniq = sorted(set(lines))
-                    with open(final_dnsx, 'w', encoding='utf-8') as wf:
-                        if uniq:
-                            wf.write("\n".join(uniq) + "\n")
-                        else:
-                            wf.write("")
-                except Exception as e:
-                    self.logger.warning(f"Failed to post-process dnsx output: {e}")
-                finally:
-                    if dnsx_proc.returncode == 0:
-                        self.telegram.send_message("dnsx scan done")
-                    else:
-                        self.telegram.send_message("dnsx scan failed")
-            else:
-                self.logger.warning("dnsx not found; skipping dnsx step")
-                self.telegram.send_message("dnsx scan skipped (not found)")
-
-            # httpx step
-            final_dnsx = scans_dir / "final-dnsx.txt"
-            if final_dnsx.exists() and shutil.which("httpx"):
-                final_httpx = scans_dir / "final-httpx.txt"
-                self.logger.info("Running httpx on dnsx results")
-                self.telegram.send_message("httpx scan run")
-                httpx_cmd = ["httpx", "-l", str(final_dnsx), "-o", str(final_httpx)]
-                httpx_proc = subprocess.run(httpx_cmd, check=False)
-                if httpx_proc.returncode == 0:
-                    self.telegram.send_message("httpx scan done")
-                else:
-                    self.telegram.send_message("httpx scan failed")
-            else:
-                if not shutil.which("httpx"):
-                    self.logger.warning("httpx not found; skipping httpx step")
-                    self.telegram.send_message("httpx scan skipped (not found)")
-                elif not final_dnsx.exists():
-                    self.telegram.send_message("httpx scan skipped (no input)")
-
-            # nuclei step
-            final_httpx = scans_dir / "final-httpx.txt"
-            if final_httpx.exists() and shutil.which("nuclei"):
-                nuclei_dir = scans_dir / "Nuclei"
-                nuclei_dir.mkdir(parents=True, exist_ok=True)
-                severities = ["high", "medium", "critical", "low", "info", "unknown"]
-                for sev in severities:
-                    out_file = nuclei_dir / f"nuclei_{sev}.txt"
-                    self.logger.info(f"Running nuclei severity={sev}")
-                    self.telegram.send_message(f"nuclei {sev} scan run")
-                    nuclei_cmd = ["nuclei", "-l", str(final_httpx), "-severity", sev, "-o", str(out_file)]
-                    nuclei_proc = subprocess.run(nuclei_cmd, check=False)
-                    if nuclei_proc.returncode == 0:
-                        self.telegram.send_message(f"nuclei {sev} scan done")
-                    else:
-                        self.telegram.send_message(f"nuclei {sev} scan failed")
-            else:
-                if not shutil.which("nuclei"):
-                    self.logger.warning("nuclei not found; skipping nuclei step")
-                    self.telegram.send_message("nuclei scans skipped (not found)")
-                elif not final_httpx.exists():
-                    self.telegram.send_message("nuclei scans skipped (no input)")
-        except Exception as e:
-            self.logger.error(f"Scan pipeline failed: {e}")
-            self.telegram.send_message("scan pipeline failed")
-
     def resolve_case_insensitive(self, base_dir: Path, rel_path: Path) -> Optional[Path]:
         """Resolve a path within base_dir by matching each component case-insensitively."""
         current = base_dir
@@ -676,16 +496,13 @@ class ChaosMonitor:
         
         # After processing all, write all-new-subs.txt only if there were new subdomains
         if run_outputs_dir is not None and all_new_subs:
-            all_new_path = run_outputs_dir / 'all-new-subs.txt'
             try:
+                all_new_path = run_outputs_dir / 'all-new-subs.txt'
                 with open(all_new_path, 'w', encoding='utf-8') as f:
                     for s in sorted(all_new_subs):
                         f.write(s + "\n")
             except Exception as e:
                 self.logger.error(f"Failed to write all-new-subs.txt: {e}")
-            else:
-                # Run dnsx, httpx and nuclei scans
-                self.run_scans(run_outputs_dir, all_new_path)
         
         # Step 6: Rotate directories for next run
         self.logger.info("Phase 5: Rotating directories...")
