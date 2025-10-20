@@ -29,20 +29,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Set up Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: 'stable'
-
-      - name: Ensure GOPATH/bin on PATH
-        run: echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
-
-      - name: Install ProjectDiscovery tools (dnsx, httpx, nuclei)
-        run: |
-          go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
-          go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
-          go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
-
       - name: Run Chaos Monitor
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
