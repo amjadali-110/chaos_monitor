@@ -1,0 +1,5 @@
+.just-eat.it
+partner-embeddings-explorer.prod.just-data.io
+www.careers.justeattakeaway.com
+www.justeattakeaway.com
+www.tech.justeattakeaway.com

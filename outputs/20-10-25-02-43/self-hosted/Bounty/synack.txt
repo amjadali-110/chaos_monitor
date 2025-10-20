@@ -1,0 +1,2 @@
+yellowbeam.ks-qa.synack.com
+yellowbeam.ks-staging.synack.com

@@ -1,0 +1,6 @@
+euonline.vfsevisa.com
+ru.vfsglobal.co.uk
+sa-api-ops.vfsevisa.com
+testssl.vfsglobal.co.uk
+www.ukbiometric.vfsglobal.com
+www.vfsglobal.co.uk

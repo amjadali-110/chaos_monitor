@@ -1,0 +1,3 @@
+www.testing-crowdin-static.downloads.crowdin.com
+xh.crowdin.com
+zh.crowdin.com

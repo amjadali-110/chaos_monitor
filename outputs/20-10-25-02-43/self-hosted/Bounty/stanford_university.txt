@@ -1,0 +1,8 @@
+afs-renew-dev.infra.stanford.edu
+fshloans-uat.stanford.edu
+hnceducation.stanford.edu
+kc-stage.stanford.edu
+ostem.stanford.edu
+phcommit.stanford.edu
+sbbo.stanford.edu
+zzzzzz.stanford.edu

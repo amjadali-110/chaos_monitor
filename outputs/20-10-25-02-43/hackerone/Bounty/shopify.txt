@@ -1,0 +1,4 @@
+auehehe.shopify.com
+ingestion-scheduler.prod.data-acq.shopifykloud.com
+yarn-oauth.starscream-adhoc.yarn.shopifykloud.com
+yarn-oauth.starscream.yarn.shopifykloud.com

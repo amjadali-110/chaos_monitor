@@ -1,0 +1,7 @@
+pensionierte-bern-2024.event.sbb.ch
+qctgcvax.event.sbb.ch
+test.myride-nonprod.sbbmobile.ch
+www.pensionierte-bern-2024.event.sbb.ch
+www.qctgcvax.event.sbb.ch
+zvs-test-ws.sbb.ch
+zvs-ws.sbb.ch

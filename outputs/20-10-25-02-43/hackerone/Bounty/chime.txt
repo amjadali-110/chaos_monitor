@@ -1,0 +1,7 @@
+blog.chimecard.com
+email.mg.chimecard.com
+visa-gateway.qa.chimepayments.com
+visa-gateway.tmp-cert.chimepayments.com
+www.chimecard.com
+www.chimepayments.com
+yoke.chime.com

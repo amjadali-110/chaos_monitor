@@ -1,0 +1,3 @@
+test.bitrue.com
+ws.bitrue.com
+www.bitrue.com

@@ -1,0 +1,2 @@
+testnet.ota.matter.ikea.com
+uat.secondhand.ikea.com

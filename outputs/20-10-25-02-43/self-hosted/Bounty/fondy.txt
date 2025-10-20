@@ -1,0 +1,2 @@
+www.jira.cloudipsp.com
+www.sentry.cloudipsp.com

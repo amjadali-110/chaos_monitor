@@ -1,0 +1,3 @@
+lifecycle-manager-18.ci.dailymotion.com
+search-staging.dailymotion.com
+zxtmdebug.dailymotion.com

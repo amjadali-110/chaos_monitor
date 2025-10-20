@@ -1,0 +1,8 @@
+*.abl.sdm.network
+*.box.sdm.network
+*.buckstop-industries-inc.sdm.network
+*.havy-collection.sdm.network
+*.holan-impex.sdm.network
+*.obss.sdm.network
+*.steg.sdm.network
+zzzzz.sdm.network

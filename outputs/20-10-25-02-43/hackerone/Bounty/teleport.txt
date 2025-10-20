@@ -1,0 +1,11 @@
+*.sandal.cloud.gravitational.io
+*.travis.cloud.gravitational.io
+sandal.cloud.gravitational.io
+travis.cloud.gravitational.io
+www.gravitational.com
+www.medium.gravitational.com
+zuul.cloud.gravitational.io
+zypper.releases.development.teleport.dev
+.cloud.gravitational.io
+你好.cloud.gravitational.io
+笨蛋.cloud.gravitational.io

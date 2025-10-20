@@ -1,0 +1,16 @@
+*.custom-outside-tunnel.h3.speed.cloudflare.com
+*.custom-t0.speed.cloudflare.com
+*.custom-t4.speed.cloudflare.com
+*.learn.cloudflare.com
+*.profile.platform.dash.cloudflare.com
+*.sandboxes.cloudflare.com
+custom-outside-tunnel.h3.speed.cloudflare.com
+custom-t0.speed.cloudflare.com
+custom-t4.speed.cloudflare.com
+events.cloudflare.com
+profile.platform.dash.cloudflare.com
+rtk-staging.realtime.cloudflare.com
+rtk.realtime.cloudflare.com
+sandboxes.cloudflare.com
+test-devel.realtime.cloudflare.com
+webhook-dispatch.realtime.cloudflare.com

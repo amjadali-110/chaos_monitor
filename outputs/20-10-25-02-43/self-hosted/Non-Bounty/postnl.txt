@@ -1,0 +1,4 @@
+zvhs.pat.postnl.nl
+zvhs.tst.waz.postnl.nl
+zwijsen.mijnlogistiek-accp.postnl.nl
+zwijsen.mijnlogistiek.postnl.nl

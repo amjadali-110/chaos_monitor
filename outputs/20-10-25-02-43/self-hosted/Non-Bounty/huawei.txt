@@ -1,0 +1,4 @@
+dev.jdc.huawei.com
+workspace.me-east-1.huaweicloud.com
+workspace.sa-brazil-1.huaweicloud.com
+www.huaweicloud.com

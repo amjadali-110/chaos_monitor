@@ -1,0 +1,6 @@
+checkpoints.testnet.zilliqa.com
+checkpoints.zq2-testnet.zilliqa.com
+otterscan.zilliqa.com
+otterscan.zq2-mainnet.zilliqa.com
+stats.zq2-mainnet.zilliqa.com
+www.learnscilla.com

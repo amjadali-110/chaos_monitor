@@ -1,0 +1,2 @@
+zd-approvals.corp.mongodb.com
+zen-approvals.corp.mongodb.com

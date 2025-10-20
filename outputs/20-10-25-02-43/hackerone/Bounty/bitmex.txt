@@ -1,0 +1,3 @@
+api.direct.devhk.bitmex.com
+direct.devhk.bitmex.com
+link.marketing.bitmex.com

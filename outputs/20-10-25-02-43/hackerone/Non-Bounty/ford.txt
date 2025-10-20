@@ -1,0 +1,5 @@
+cdscupid-ui-qa.cdscupidqa.ford.com
+wwwuat.fsrplus.ford.com
+wwwuat.lsrplus.lincoln.com
+znas125.pp.f01.dc1.ford.com
+zpas224.prod.f01.dc1.ford.com

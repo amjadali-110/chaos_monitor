@@ -1,0 +1,4 @@
+www.conf.danskebank.dk
+www.regrep.danskebank.dk
+www.tilmeld.staging.june.dk
+www.tilmeld.test.june.dk

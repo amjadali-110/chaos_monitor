@@ -1,0 +1,1 @@
+*.support-hk.samsung.com

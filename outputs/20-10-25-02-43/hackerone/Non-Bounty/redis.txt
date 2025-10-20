@@ -1,0 +1,4 @@
+*.fcrce213.us-east-1-3.ec2.cloud.redislabs.com
+*.internal.fcrce213.us-east-1-3.ec2.cloud.redislabs.com
+character-ai-internal.character-ai-dns-swapper.sm-qa.qa.redislabs.com
+fcrce213.us-east-1-3.ec2.cloud.redislabs.com

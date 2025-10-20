@@ -1,0 +1,4 @@
+zabbix.wws.sony.com
+zengum.spe.sony.com
+zmobile.spe.sony.com
+zoom.spe.sony.com

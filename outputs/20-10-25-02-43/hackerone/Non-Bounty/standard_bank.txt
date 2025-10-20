@@ -1,0 +1,10 @@
+stbg.stanbicbank.com.ci
+uat-digiaud.stanbicbank.com.ci
+www.encrypt.stanbicbank.co.bw
+www.refplus-sandbox.standardbank.co.mz
+www.refplus.standardbank.co.mz
+www.stanbicbank.com.ci
+www3.ibanking.stanbicbank.co.bw
+www6.encrypt.standardbank.com.na
+za.mail.standardbank.com
+zeroratingtest2-origin.standardbank.co.za

@@ -1,0 +1,3 @@
+mt5-ftmo.oanda.com
+www.mobidirect.tms.pl
+www.webdirect.tms.pl

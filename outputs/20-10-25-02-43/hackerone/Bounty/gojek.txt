@@ -1,0 +1,12 @@
+al-gtdp-p-kong.gopayapi.com
+gtf-grpc.al-ma-id-s.mab.co.id
+infrastructure-engineering.foundation.team.al-gtdp-p-kong.gopayapi.com
+infrastructure-engineering.governance.team.public-mini-app-merchants-backend.gopayapi.com
+infrastructure-engineering.governance.team.public-mini-app-merchants-backend.staging.gopayapi.com
+public-mini-app-merchants-backend.gopayapi.com
+public-mini-app-merchants-backend.staging.gopayapi.com
+web.di-partner.gojekapi.com
+wonderland-153.gojekapi.com
+www.funding-staging.findaya.co.id
+www.gojekapi.com
+www.gopaycc.gojekapi.com

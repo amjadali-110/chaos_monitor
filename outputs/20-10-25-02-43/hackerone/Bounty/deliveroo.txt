@@ -1,0 +1,3 @@
+order-status.deliveroo-data-test.io
+restaurant-data-api.deliveroo-data-test.io
+traffic.deliveroo-data-test.io

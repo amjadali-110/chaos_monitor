@@ -1,0 +1,7 @@
+ashopstoredr.dxplatform.comcast.com
+ashopstoredrwebui.dxplatform.comcast.com
+ashopstoreprod.dxplatform.comcast.com
+ashopstoreprodwebui.dxplatform.comcast.com
+jbm-scl-yocto-build-075m.scl.svic.comcast.com
+jbm-scl-yocto-build-077m.scl.svic.comcast.com
+jbm-scl-yocto-build-080m.scl.svic.comcast.com

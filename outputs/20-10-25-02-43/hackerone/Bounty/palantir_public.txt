@@ -1,0 +1,12 @@
+*.alviss.palantirfoundry.com
+*.defender.palantirfoundry.com
+alviss.palantirfoundry.com
+defender.palantirfoundry.com
+fascinator-containers.palantirfoundry.com
+kla.palantirfoundry.com
+rubixgovinfra-gcp-dev-container-registry.palantircloud.com
+rubixgovinfra-gcp-dev.palantircloud.com
+streamline-us-1.palantirfoundry.com
+uchealth.palantirfoundry.com
+www.wiki.palantir.tech
+www.wiki.staging.palantir.tech

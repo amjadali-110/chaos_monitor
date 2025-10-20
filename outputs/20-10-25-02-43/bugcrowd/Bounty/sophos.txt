@@ -1,0 +1,6 @@
+survey-emea.astaro.de
+testcase3.astaro.net
+us.archive.astaro.net
+vpn.astaro.de
+www.astaro.de
+www.astaro.net

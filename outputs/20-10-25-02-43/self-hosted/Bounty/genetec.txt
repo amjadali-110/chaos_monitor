@@ -1,0 +1,17 @@
+*.centralkr.video.genetec.cloud
+avcr-prod-usgova-wt-0000-staging.autovu.cloud
+avcr-prod-usgovv-linux-hg-staging.autovu.cloud
+avcr-prod-usgovv-wt-0000-staging.autovu.cloud
+centralkr.adminportal.edge.genetec.cloud
+centralkr.audit.edge.genetec.cloud
+centralkr.deviceidentity.edge.genetec.cloud
+centralkr.unification.genetec.cloud
+centralkr.users.edge.genetec.cloud
+dems-proda-deviceconfig.clearance.network
+dems-prodau-deviceconfig.clearance.network
+dems-prodca-deviceconfig.clearance.network
+dems-produsgov-deviceconfig.clearance.network
+koreacentral.gip.intrusion.genetec.cloud
+koreacentral.ses.genetec.cloud
+kr.securitycentersaas.genetec.cloud
+krc.ml.genetec.cloud

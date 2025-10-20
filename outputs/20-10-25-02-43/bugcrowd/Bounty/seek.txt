@@ -1,0 +1,4 @@
+web.poolparty.skinfra.xyz
+yarn-master01-staging-pkt-sjc1-us.jobapi.net
+yarn-slave02-staging-pkt-sjc1-us.jobapi.net
+zeppelin.jobapi.net

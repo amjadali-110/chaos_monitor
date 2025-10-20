@@ -1,0 +1,2 @@
+redeem-api-staging.nftfair.app
+sffvouchers.nftfair.app

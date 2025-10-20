@@ -1,0 +1,10 @@
+argocd.capybaras-processing.prod.maps-amf.tomtom.com
+azure-quota-monitor.dev.adas.tomtomgroup.com
+main-ne-alert.osdev.tomtomgroup.com
+main-ne-prom.osdev.tomtomgroup.com
+mleblebici-test.ssu.tomtomgroup.com
+state-reader-68705.29351.discos.orbis.tomtom.com
+sync-service.ttnav-20063-20063.prod.maps-amf.tomtom.com
+wfs-16712-lanewidth.goldenapples.dev.maps-amf.tomtom.com
+zailaiyige-pushfeeds.tomtom.com
+zaorikangfu-pushfeeds.tomtom.com

@@ -1,0 +1,5 @@
+jp.iotex.io
+nft.iopay.me
+static.iopay.me
+web.iopay.me
+www.iopay.me

@@ -1,0 +1,3 @@
+*.briefe.io
+www.briefe.io
+www.moviecontentfilter.com

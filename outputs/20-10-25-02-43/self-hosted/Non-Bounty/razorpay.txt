@@ -1,0 +1,3 @@
+yesbank-client-cert.prod.razorpay.com
+yesbank-client-cert.stage.razorpay.com
+yesbank-uat-nonprod.razorpay.com

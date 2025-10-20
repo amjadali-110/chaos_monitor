@@ -1,0 +1,13 @@
+*.87046.workbox.dk
+*.87047.workbox.dk
+*.87048.workbox.dk
+*.87056.workbox.dk
+*.87071.workbox.dk
+*.87089.workbox.dk
+*.87091.workbox.dk
+*.87092.workbox.dk
+*.87166.workbox.dk
+*.87173.workbox.dk
+*.87181.workbox.dk
+*.87182.workbox.dk
+*.87186.workbox.dk

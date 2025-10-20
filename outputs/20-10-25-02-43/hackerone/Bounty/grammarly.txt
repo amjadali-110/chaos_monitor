@@ -1,0 +1,2 @@
+server.grammarly.ai
+www.grammarly.net

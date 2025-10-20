@@ -1,0 +1,2 @@
+vmware-staging.authy.com
+www.authy.com

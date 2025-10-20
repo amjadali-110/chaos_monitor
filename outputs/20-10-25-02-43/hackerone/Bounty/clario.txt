@@ -1,0 +1,2 @@
+zchat.account.clario.co
+zchat.account.sz.clario.co

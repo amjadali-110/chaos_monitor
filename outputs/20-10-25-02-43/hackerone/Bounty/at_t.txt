@@ -1,0 +1,12 @@
+agat.mx.att.com
+agatmgc.mx.att.com
+agatspr.mx.att.com
+autodiscovermgc.mx.att.com
+autodiscoverspr.mx.att.com
+daemon.dev.att.com
+dash-eastus2-prod-app-vm-ssl.att.com
+mxmgcagat01.mx.att.com
+mxmgcagat02.mx.att.com
+mxspragat01.mx.att.com
+mxspragat02.mx.att.com
+sppwebt6-0.sppnprd.app.ecp.att.com

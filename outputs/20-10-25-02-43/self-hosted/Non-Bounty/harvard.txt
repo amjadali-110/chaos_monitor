@@ -1,0 +1,3 @@
+*.secfas.harvard.edu
+zzz39.mgh.harvard.edu
+zzz40.mgh.harvard.edu

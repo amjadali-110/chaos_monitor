@@ -1,0 +1,2 @@
+mta-sts.test.tuta.io
+www.mail.test.tutanota.de

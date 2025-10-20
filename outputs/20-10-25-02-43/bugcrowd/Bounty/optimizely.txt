@@ -1,0 +1,4 @@
+*.opal-tools.cms.optimizely.com
+*.opal-tools.cmstest.optimizely.com
+opal-tools.cms.optimizely.com
+opal-tools.cmstest.optimizely.com
