@@ -16,6 +16,8 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 import time
 import subprocess
+import platform
+import tarfile
 
 # Configuration
 CHUNK_SIZE = 1024 * 64  # 64KB
@@ -364,16 +366,70 @@ class ChaosMonitor:
             self.logger.error(f"Failed to rotate directories: {e}")
     
     def ensure_pd_tools(self) -> None:
-        """Ensure dnsx, httpx, nuclei are installed; attempt Go install if missing."""
+        """Ensure Go and ProjectDiscovery tools are installed, but only when scans are needed."""
         try:
             go_path = shutil.which("go")
             if not go_path:
-                self.logger.warning("Go not found; cannot auto-install dnsx/httpx/nuclei")
-                return
+                # Attempt local, non-root Go install
+                self.logger.info("Go not found; attempting local installation")
+                try:
+                    # Determine platform
+                    sys = platform.system().lower()
+                    arch = platform.machine().lower()
+                    if sys.startswith("linux"):
+                        os_tag = "linux"
+                    elif sys.startswith("darwin"):
+                        os_tag = "darwin"
+                    else:
+                        os_tag = sys
+                    if arch in ("x86_64", "amd64"):
+                        arch_tag = "amd64"
+                    elif arch in ("aarch64", "arm64"):
+                        arch_tag = "arm64"
+                    else:
+                        arch_tag = arch
+
+                    # Get latest Go version
+                    version = "go1.22.5"
+                    try:
+                        r = requests.get("https://go.dev/VERSION?m=text", timeout=20)
+                        if r.ok and r.text.strip().startswith("go"):
+                            version = r.text.strip().splitlines()[0]
+                    except Exception:
+                        pass
+
+                    url = f"https://dl.google.com/go/{version}.{os_tag}-{arch_tag}.tar.gz"
+                    tools_dir = Path(".tools")
+                    tools_dir.mkdir(parents=True, exist_ok=True)
+                    tar_path = tools_dir / "go.tgz"
+
+                    with requests.get(url, stream=True, timeout=60) as resp:
+                        resp.raise_for_status()
+                        with open(tar_path, "wb") as f:
+                            for chunk in resp.iter_content(chunk_size=CHUNK_SIZE):
+                                if chunk:
+                                    f.write(chunk)
+                    # Extract
+                    goroot = tools_dir / "go"
+                    if goroot.exists():
+                        shutil.rmtree(goroot, ignore_errors=True)
+                    with tarfile.open(tar_path, "r:gz") as tf:
+                        # The archive root is "go/"; extract into tools_dir
+                        tf.extractall(path=tools_dir)
+                    # Update environment
+                    os.environ["GOROOT"] = str(goroot)
+                    os.environ["PATH"] = str(goroot / "bin") + os.pathsep + os.environ.get("PATH", "")
+                    go_path = str(goroot / "bin" / "go")
+                    self.logger.info(f"Installed Go at {goroot}")
+                except Exception as e:
+                    self.logger.warning(f"Failed to auto-install Go: {e}")
+                    return
 
             # Ensure GOPATH/bin is on PATH for this process
             try:
                 gopath = subprocess.check_output([go_path, "env", "GOPATH"], text=True).strip()
+                if not gopath:
+                    gopath = str(Path.home() / "go")
                 bin_dir = os.path.join(gopath, "bin")
                 if bin_dir and bin_dir not in os.environ.get("PATH", ""):
                     os.environ["PATH"] = bin_dir + os.pathsep + os.environ.get("PATH", "")
