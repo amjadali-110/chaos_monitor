@@ -1,0 +1,4 @@
+*.gsearch.qa.finra.org
+gsearch.qa.finra.org
+static.fingerprints-qa.finrafp.qa.finra.org
+static.fingerprints-qaint.finrafp.qa.finra.org

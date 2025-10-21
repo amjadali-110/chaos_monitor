@@ -1,0 +1,3 @@
+ycpi-api.flickr.com
+ycpi.api.flickr.com
+zabbix.flickr.com

@@ -1,0 +1,4 @@
+*.crce214.us-east-1-3.ec2.cloud.redislabs.com
+*.internal.crce214.us-east-1-3.ec2.cloud.redislabs.com
+crce214.us-east-1-3.ec2.cloud.redislabs.com
+db1.crce659.us-east-1-mz.ec2.qa-cloud.redislabs.com
