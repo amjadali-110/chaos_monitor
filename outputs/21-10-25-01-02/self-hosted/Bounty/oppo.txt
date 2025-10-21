@@ -1,0 +1,13 @@
+udp.wire.community-vpn.48.opposhop.cn
+wealth-fin-dev.pay-test.wanyol.com
+wealth-fin.pay-test.wanyol.com
+www.google.com-94e3ff-machine-machine-honors-engine.gitlab.heytap.com
+www.google.com-search-api-api-honors-enginepanel.heytapdownload.com
+www.google.com-static-video-machine-machine-qaopen-engine-phpeurope.heytapdownload.com
+www.heytap.com
+www.opposhop.cn
+www.wanyol.com
+wwwtest.heytap.com
+wxtest.wanyol.com
+yunv2.oppo.com
+zhushou.oppo.com

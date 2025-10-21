@@ -1,0 +1,5 @@
+.resmed.mx
+origin.resmed.no
+virtualphysician.ing.resmed.com
+www.eudev-www.resmed.no
+www.resmed.no

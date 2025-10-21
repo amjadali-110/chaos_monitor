@@ -1,0 +1,6 @@
+*.cde-ops.ice.mod.gov.uk
+*.cde.ice.mod.gov.uk
+*.deva.c3ai.ice.mod.gov.uk
+cde-ops.ice.mod.gov.uk
+cde.ice.mod.gov.uk
+deva.c3ai.ice.mod.gov.uk

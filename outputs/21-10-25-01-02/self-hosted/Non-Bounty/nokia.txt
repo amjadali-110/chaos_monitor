@@ -1,0 +1,7 @@
+*.gp1020a-x62z2.aut.saas.nokia.com
+*.lt1013wkla-5562z.aut.saas.nokia.com
+*.mj1013wklda-cprrh.aut.saas.nokia.com
+*.mj1020wkld-4vqcx.aut.saas.nokia.com
+*.pm1020aut-98v6l.aut.saas.nokia.com
+*.pm1020w-b-ngt4b.aut.saas.nokia.com
+dev-ckey.portal.nac.g002.saas.nokia.com

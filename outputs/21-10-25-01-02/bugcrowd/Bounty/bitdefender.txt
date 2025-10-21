@@ -1,0 +1,6 @@
+*.datainsights.gravityzone.bitdefender.com
+*.glc-bd-prd-apse1.datainsights.gravityzone.bitdefender.com
+*.glc-bd-prd-apse1.glc-test2.gravityzone.bitdefender.com
+*.glc-bd-prd-euw1.datainsights.gravityzone.bitdefender.com
+*.glc-bd-prd-use1.datainsights.gravityzone.bitdefender.com
+*.glc-bd-prd-use1.glc-test2.gravityzone.bitdefender.com

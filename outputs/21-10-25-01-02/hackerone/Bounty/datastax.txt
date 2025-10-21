@@ -1,0 +1,4 @@
+prometheus-klarna-prod-aws-ap-southeast-2.private.streaming.datastax.com
+prometheus-klarna-prod-aws-ap-southeast-2.streaming.datastax.com
+pulsar-metrics.klarna-prod-aws-ap-southeast-2.private.streaming.datastax.com
+pulsar-metrics.klarna-prod-aws-ap-southeast-2.streaming.datastax.com

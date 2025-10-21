@@ -1,0 +1,14 @@
+enclave.ai.monash.edu
+erppb1pt.mpc.monash.edu
+erppb2pn.mpc.monash.edu
+erppc1pn.mpc.monash.edu
+erppd1pn.mpc.monash.edu
+erppd2pt.mpc.monash.edu
+erppd3pt.mpc.monash.edu
+gwpc1pt.mpc.monash.edu
+gwpd2pn.mpc.monash.edu
+gwpd3pt.mpc.monash.edu
+gwpd4pn.mpc.monash.edu
+www.enclave.ai.monash.edu
+www.itsr-pwman-01.ocio.monash.edu
+www.mvault.monash.edu

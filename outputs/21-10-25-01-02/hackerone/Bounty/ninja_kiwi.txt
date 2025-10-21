@@ -1,0 +1,5 @@
+nexus.ninja.kiwi
+noti.ninja.kiwi
+static-api-staging.nkstatic.com
+thumbs.nkstatic.com
+www.store.ninjakiwi.com

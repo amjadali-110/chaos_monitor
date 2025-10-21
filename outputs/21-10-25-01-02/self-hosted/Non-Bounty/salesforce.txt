@@ -1,0 +1,3 @@
+login.perf4d.pc-rnd.salesforce.com
+sfdc-x579t5.perf4d.login.pc-rnd.salesforce.com
+webto.perf4d.pc-rnd.salesforce.com

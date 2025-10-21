@@ -1,0 +1,12 @@
+api.charging.bff.dev.ford.com
+api.us1.charging.bff.dev.ford.com
+apps.sb0000.caas.gcp.ford.com
+dc2h2st01pa.hosts.cloud.ford.com
+dev.ai.ford.com
+dro.mfmdev.ford.com
+fpi-fves-dev.ford.com
+recall-qa.ford.com
+www.dev.ai.ford.com
+wwwdev.eucco.ford.com
+wwwqa.assets.lincoln.com
+zpas225.prod.f01.dc1.ford.com

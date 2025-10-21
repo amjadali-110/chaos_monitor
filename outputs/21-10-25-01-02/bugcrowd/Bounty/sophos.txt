@@ -1,0 +1,15 @@
+*.ap-south-1.qa.smsc.sophos.com
+*.qa.smsc.sophos.com
+*.us-west-2.secure.qa.dnsprotection.sophos.com
+account-management-cloudhub-eu-west-1.dev.hydra.sophos.com
+account-management.cloudhub.eu-west-1.dev.hydra.sophos.com
+ingest.tims.labs.sophos.com
+lcps-authorized-dhwanit.publish.dev.labs.sophos.com
+mqclgvmm.stn010yul.ctr.sophos.com
+mug8roqu.cloudstation.us-west-2.qa.hydra.sophos.com
+rd5nggws.cloudhub.eu-west-1.dev.hydra.sophos.com
+zixvpm12.reflexion.net
+zixvpm13.reflexion.net
+zixvpm2.reflexion.net
+zzq06wwh.cloudstation.eu-west-1.inf.hydra.sophos.com
+zzunbu1i.cloudstation.eu-west-1.dev.hydra.sophos.com

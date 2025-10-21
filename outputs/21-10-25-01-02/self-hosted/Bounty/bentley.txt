@@ -1,0 +1,9 @@
+iac-pw-ws.bentley.com
+lb-pw-ws.bentley.com
+lb-pw.bentley.com
+manage.bentley.com
+stv-sw-pw-ws.bentley.com
+timtestwebapp-staging.bentley.com
+timtestwebapp.bentley.com
+zutari-uae-pw-ws.bentley.com
+zutari-uae-pw.bentley.com

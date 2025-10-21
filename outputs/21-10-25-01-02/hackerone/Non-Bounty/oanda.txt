@@ -1,0 +1,8 @@
+promo.ftmo.oanda.com
+sm.tmsbrokers.com
+www4.oanda.com
+x.oanda.com
+yyz.oanda.com
+z-atman-isp.tms.pl
+z-telepolska.tms.pl
+zabbix-uat.svc.ri.oanda.com

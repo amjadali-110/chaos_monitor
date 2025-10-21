@@ -1,0 +1,5 @@
+test-fedsvc.amsyscorp.com
+www.amsyscorp.com
+www.mail.emsolve.com
+www.portal.emsolve.com
+www.remote.emsolve.com

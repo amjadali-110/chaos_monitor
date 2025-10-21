@@ -1,0 +1,3 @@
+bank-a-us-east-2-dev.swift.web3factory.consensys.net
+bank-c-us-east-2-dev.swift.web3factory.consensys.net
+custodian-a-us-east-2-dev.swift.web3factory.consensys.net

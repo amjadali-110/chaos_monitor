@@ -1,0 +1,3 @@
+*.www.devstack-lowaquayak1016-web.use1.dev.us.fdbox.net
+api.prd.racing.fanduel.com
+prd.racing.fanduel.com

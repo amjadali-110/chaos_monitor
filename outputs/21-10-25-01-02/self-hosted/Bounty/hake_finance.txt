@@ -1,0 +1,2 @@
+*.igain.finance
+ig-legacy.igain.finance

@@ -1,0 +1,13 @@
+lpc-outsource-release.yandex.com
+zitadel.opensource.datalens.yandex.cloud
+zjunk58.yandex.com
+zworker-n1.yandex.net
+zworker-s1.yandex.net
+zworker-test.yandex.net
+zxcoff.ya.ru
+zxcqaz.ya.ru
+zy.ya.ru
+zzz-sirix.ya.ru
+zzzook.yandex.ru
+zzzrum.yandex.ru
+zzzubila.yandex.ru

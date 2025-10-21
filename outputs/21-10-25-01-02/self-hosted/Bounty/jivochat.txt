@@ -1,0 +1,4 @@
+*.temp2.dev.jivosite.com
+*.wi-in-176-14.dev.jivosite.com
+temp2.dev.jivosite.com
+wi-in-176-14.dev.jivosite.com

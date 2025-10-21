@@ -1,0 +1,2 @@
+zdns-api.nominet.uk
+zdns-qa-testing.nominet.uk

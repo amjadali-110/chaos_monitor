@@ -1,0 +1,5 @@
+*.apps.yb-uran.mdtu-ddm.projects.epam.com
+api.yb-uran.mdtu-ddm.projects.epam.com
+cai.lab.epam.com
+dots-ocr.llm.lab.epam.com
+elasticsearch-v6-530.aws.radar.epam.com

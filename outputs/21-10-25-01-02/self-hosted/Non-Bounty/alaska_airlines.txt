@@ -1,0 +1,3 @@
+melcatalog.nonprod.alaskaair.com
+melcatalog.qa.alaskaair.com
+melcatalog.test.alaskaair.com

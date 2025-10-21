@@ -1,0 +1,6 @@
+akamai-rewardshield.chase.com
+api-mtls-tgs-ext-notifications.chase.com
+yluxuatepvpsm1.emea.ad.jpmorganchase.com
+ymilcatftp03.emea.ad.jpmorganchase.com
+zippy-dr.jpmorganchase.com
+zippy.jpmorganchase.com

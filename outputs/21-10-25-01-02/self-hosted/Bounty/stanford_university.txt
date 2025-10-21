@@ -1,0 +1,10 @@
+aisurvey.stanford.edu
+authorize-dev1.stanford.edu
+deid-pa-eclipse-prod.stanford.edu
+dschoolsxsw.stanford.edu
+give2cct-qre1.stanford.edu
+gsb-ai-cop.stanford.edu
+scalingintelligence.stanford.edu
+somosupgrade.stanford.edu
+studentws-dev1.stanford.edu
+workgroupsvc-dev1.stanford.edu

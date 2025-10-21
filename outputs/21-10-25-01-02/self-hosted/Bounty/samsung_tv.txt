@@ -1,0 +1,4 @@
+*.searchapi-preqa3.samsung.com
+*.searchapi-sa.samsung.com
+searchapi-preqa3.samsung.com
+searchapi-sa.samsung.com

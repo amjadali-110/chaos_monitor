@@ -1,0 +1,6 @@
+*.irccloud-cdn.com
+static.irccloud-cdn.com
+usercontent-test.irccloud-cdn.com
+usercontent.irccloud-cdn.com
+www.blog.irccloud.com
+www.ops.irccloud.com

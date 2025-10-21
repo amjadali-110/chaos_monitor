@@ -1,0 +1,9 @@
+goco-genie-ror.api.intuit.com
+gotomarket-expdelactiv-pmkt-dc-dispatcher.growthprdusw2.iks2.a.intuit.com
+mailchimp-monolith-prd8-avesta-metric-receiver.mlchmpmonoprduse2.iks2.a.intuit.com
+payroll-prd-goco-genie-ror.payrollprdusw2.iks2.a.intuit.com
+payroll-prd2-goco-genie-ror.payrollprdusw2.iks2.a.intuit.com
+payroll-prd3-goco-genie-ror.payrollprdusw2.iks2.a.intuit.com
+payroll-prd4-goco-genie-ror.payrollprdusw2.iks2.a.intuit.com
+work-payroll-prd-goco-genie-ror.payrollprdusw2.iks2.a.intuit.com
+wwwss.mint.com

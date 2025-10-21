@@ -1,0 +1,17 @@
+prism-solr-dev.spe.sony.com
+prism-solr-qa.spe.sony.com
+prism-solr-qa2.spe.sony.com
+prism-solr-qa3.spe.sony.com
+rpm-api-dev2.spe.sony.com
+rpm-api-dev3.spe.sony.com
+rpm-api-qa.spe.sony.com
+rpm-api-qa2.spe.sony.com
+rpm-api-qa3.spe.sony.com
+s2f-api-dev2.spe.sony.com
+s2f-api-dev3.spe.sony.com
+s2f-api-qa.spe.sony.com
+s2f-api-qa2.spe.sony.com
+s2f-api-qa3.spe.sony.com
+usculiiqiqsq.am.sony.com
+usculiiqiqsq01v.am.sony.com
+usculiiqiqsq02v.am.sony.com

@@ -1,0 +1,7 @@
+*.centralkr.sip.sipelia.genetec.cloud
+*.westeu.sip.sipelia.genetec.cloud
+acaas-gateway-uk01.geneteccloud.com
+dems-prodeu-deviceconfig.clearance.network
+southuk.video.genetec.cloud
+sts-us.clearance.network
+techdoc-hub-crm-integration.genetec.cloud

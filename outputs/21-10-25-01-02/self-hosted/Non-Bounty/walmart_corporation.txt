@@ -1,0 +1,3 @@
+pxlegacy-to-af.walmart.com
+pxlegacy-validate.walmart.com
+work-manager.prod-ca.walmart.com

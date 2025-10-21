@@ -1,0 +1,4 @@
+*.ci-deps-record-harvester.dev.sdp.surf.nl
+dotnet.pilot1.sram.surf.nl
+prometheus-client.dev.sdp.surf.nl
+prometheus-client.prod.sdp.surf.nl

@@ -1,0 +1,6 @@
+*.custom-t3.speed.cloudflare.com
+*.events.cloudflare.com
+*.privacy-relay.cloudflare.com
+custom-t3.speed.cloudflare.com
+privacy-relay.cloudflare.com
+rtk-devel.realtime.cloudflare.com

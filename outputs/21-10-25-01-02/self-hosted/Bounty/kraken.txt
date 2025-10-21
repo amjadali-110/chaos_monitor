@@ -1,0 +1,4 @@
+alpha-id.prod.kraken.com
+id.dc2a.uat.kraken.com
+pro.uat.kraken.com
+support.dc2a.uat.kraken.com

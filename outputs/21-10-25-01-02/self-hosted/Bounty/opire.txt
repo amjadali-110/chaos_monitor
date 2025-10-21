@@ -1,0 +1,3 @@
+www.api.opire.dev
+www.app.opire.dev
+www.docs.opire.dev

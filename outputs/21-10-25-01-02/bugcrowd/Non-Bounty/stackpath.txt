@@ -1,0 +1,8 @@
+www.cacti.maxcdn.net
+www.nagios.maxcdn.net
+www.yum.maxcdn.net
+yum.maxcdn.net
+z86688785n.serverdensity.com
+zendesk1.serverdensity.com
+zendeskapp-staging.stackpath.net
+zug9.serverdensity.com

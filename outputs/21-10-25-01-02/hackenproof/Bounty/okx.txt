@@ -1,0 +1,4 @@
+xlayertestrpc.okx.com
+xlayertestws.okx.com
+xlayerws.okx.com
+zmail.okx.com

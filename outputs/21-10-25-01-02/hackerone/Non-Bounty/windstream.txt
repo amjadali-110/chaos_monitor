@@ -1,0 +1,2 @@
+*.getwindstream.com
+www.getwindstream.com

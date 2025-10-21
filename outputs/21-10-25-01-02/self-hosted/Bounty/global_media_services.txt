@@ -1,0 +1,6 @@
+*.globot.global.com
+cms-api.dev.cts.global.com
+globot.global.com
+identity.cts.global.com
+www.capitalxtra.com
+www.winplus.capitalxtra.com

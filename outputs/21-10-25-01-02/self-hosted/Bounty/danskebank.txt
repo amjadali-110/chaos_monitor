@@ -1,0 +1,7 @@
+beta-developers.danskebank.com
+developers-gw.danskebank.com
+mock-api.danskebank.com
+z4-sf.danskebank.com
+zem-integration-syst.danskebank.com
+zem-integration.danskebank.com
+zenostockclient.danskebank.com

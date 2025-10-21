@@ -1,0 +1,2 @@
+sql-monkey-staging.deliveroo-data.net
+weather.deliveroo-data.io

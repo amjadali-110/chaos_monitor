@@ -1,0 +1,3 @@
+nsxt.pcc-5-135-133-202.ovh.com
+www.nsxt.pcc-5-135-133-202.ovh.com
+zookeeper-3.thot.ovh.com

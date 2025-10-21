@@ -1,0 +1,4 @@
+www.testcert4.tesla.cn
+yum.vsdc.tesla.cn
+zipline.solarcity.com
+zoom.solarcity.com

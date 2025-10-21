@@ -1,0 +1,5 @@
+withdrawal-pgw.gopayapi.com
+www.internal-stg.gopayapi.com
+www.internal.gopayapi.com
+www.lk.findaya.co.id
+www.stg.whatsapp.gopayapi.com

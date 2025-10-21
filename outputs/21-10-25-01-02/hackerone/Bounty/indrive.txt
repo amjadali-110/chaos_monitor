@@ -1,0 +1,2 @@
+ykt-test.volans.tech
+zabbix.volans.tech

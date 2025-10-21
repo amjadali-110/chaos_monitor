@@ -1,0 +1,3 @@
+dbt.data.wpesvc.net
+dns-records-api.wpesvc.net
+wpe-one-agency-staging.wpesvc.net

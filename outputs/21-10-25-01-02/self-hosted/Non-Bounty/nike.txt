@@ -1,0 +1,3 @@
+discover-uacomponent-stg.nike.net
+impact.uninety-dev.nike.com
+impact.uninety-test.nike.com

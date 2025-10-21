@@ -1,0 +1,3 @@
+www.geoip.starlinkisp.net
+www.observium.starlinkisp.net
+ztp.starlinkisp.net

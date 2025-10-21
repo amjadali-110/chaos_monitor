@@ -1,0 +1,10 @@
+*.editor-component-gcp.cmp.optimizely.com
+*.hosted-app-gcp.cmp.optimizely.com
+*.license.optimizely.com
+e3-api.optimizely.com
+editor-component-gcp.cmp.optimizely.com
+epfcag.collections.cmp.optimizely.com
+hosted-app-gcp.cmp.optimizely.com
+prep.event-lake.optimizely.com
+znsvow.files.cmp.optimizely.com
+zrr5dxctadm4e7rh.dxptest.optimizely.com

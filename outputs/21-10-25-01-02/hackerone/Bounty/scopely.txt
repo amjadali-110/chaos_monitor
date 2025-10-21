@@ -1,0 +1,3 @@
+xp.scopely.com
+yahtzee.scopely.com
+zoomtraining.scopely.com

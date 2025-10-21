@@ -1,0 +1,11 @@
+ai-agentic-ui-74.adtech.ci.dailymotion.com
+core-gateway-12.ci.dailymotion.com
+data-dynamic-ad-pressure-216.ci.dailymotion.com
+data-recommender-home-native-835.ci.dailymotion.com
+data-search-provider-266.ci.dailymotion.com
+data-search-provider-279.ci.dailymotion.com
+datadome-gateway-search.dailymotion.com
+leo-console-api-3021-apidoc.adtech.ci.dailymotion.com
+leo-console-api-3021-ui.adtech.ci.dailymotion.com
+player-geo-605.ci.dailymotion.com
+player-geo-607.ci.dailymotion.com

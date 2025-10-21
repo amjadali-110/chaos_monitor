@@ -1,0 +1,5 @@
+demo-portal.industrysolutions.staging.corp.mongodb.com
+foo.devprod.mongodb.com
+gen-scraper-sf-scraper.ts-tools.staging.corp.mongodb.com
+mongodb-pipeline-autocomplete.cloud-atlas-search.staging.corp.mongodb.com
+oncall-summary.corp.mongodb.com

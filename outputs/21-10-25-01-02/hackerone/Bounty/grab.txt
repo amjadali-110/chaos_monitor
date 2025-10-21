@@ -1,0 +1,3 @@
+zendesk3.myteksi.com
+zendesk4.myteksi.com
+zookeeper.myteksi.net

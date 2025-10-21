@@ -1,0 +1,2 @@
+*.spiketrap.snooguts.net
+spiketrap.snooguts.net

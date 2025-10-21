@@ -1,0 +1,5 @@
+xclr.stage.ual.com
+xclr.stg.ual.com
+zh.pp.mystatus.united.com
+zh.staging.mystatus.united.com
+zsdrdev.united.com

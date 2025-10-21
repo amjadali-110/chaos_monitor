@@ -1,0 +1,8 @@
+*.img.tokenlink.qq.com
+bhurl.qq.com
+dayurta.qq.com
+hmurl.qq.com
+img.tokenlink.qq.com
+zqact02.tenpay.com
+zqact03.tenpay.com
+zqact04.tenpay.com

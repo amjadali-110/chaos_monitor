@@ -1,0 +1,4 @@
+ws-api.upstox.com
+ws.upstox.com
+www.outbound.upstox.com
+www.upstox.com

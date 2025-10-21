@@ -1,0 +1,3 @@
+litbot-partners.checkpoint.com
+nexus-argocd-prod-milan.i2.checkpoint.com
+vitaly-protected.dev.i2.checkpoint.com

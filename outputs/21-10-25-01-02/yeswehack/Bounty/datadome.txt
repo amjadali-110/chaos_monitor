@@ -1,0 +1,2 @@
+test-cname.captcha-delivery.com
+test-tmp.captcha-delivery.com

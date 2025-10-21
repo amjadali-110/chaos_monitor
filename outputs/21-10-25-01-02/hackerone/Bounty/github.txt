@@ -1,0 +1,5 @@
+xe-2-0-3-0.bdr1-cp1-prd.net.cp1-iad.github.net
+xe-2-0-3-0.bdr2-cp1-prd.net.cp1-iad.github.net
+xe-2-2-3-0.bdr1-cp1-prd.net.cp1-iad.github.net
+xe-2-2-3-0.bdr2-cp1-prd.net.cp1-iad.github.net
+zendesk-gh-sidecar-proxy-production.githubapp.com

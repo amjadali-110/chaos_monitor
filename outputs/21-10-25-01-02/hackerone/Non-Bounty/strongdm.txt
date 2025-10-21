@@ -1,0 +1,8 @@
+*.cts.sdm.network
+*.kiwi-financial-inc.sdm.network
+*.metropistas.sdm.network
+*.nxthop-technologies.sdm.network
+*.rhythms.sdm.network
+*.vig-aus.sdm.network
+ux2.search.corp.strongdm.com
+www.strongdm.com
